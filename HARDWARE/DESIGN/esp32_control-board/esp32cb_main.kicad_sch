@@ -3380,7 +3380,7 @@
 	)
 	(global_label "RFID2_reset"
 		(shape input)
-		(at 170.18 156.21 180)
+		(at 207.01 161.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3390,7 +3390,7 @@
 		)
 		(uuid "188ab8c4-56e5-441a-a7b5-ec06c833af40")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.0671 156.21 0)
+			(at 192.8971 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3429,7 +3429,7 @@
 	)
 	(global_label "LOCKS_RESET"
 		(shape input)
-		(at 218.44 154.94 180)
+		(at 236.22 160.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3439,7 +3439,7 @@
 		)
 		(uuid "249a92d2-ecfc-415d-9126-8da747416aff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.634 154.94 0)
+			(at 220.414 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3647,7 +3647,7 @@
 	)
 	(global_label "RFID1_reset"
 		(shape input)
-		(at 154.94 151.13 180)
+		(at 191.77 156.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3657,7 +3657,7 @@
 		)
 		(uuid "50715a36-0673-46cd-a5e3-f97ecdf7fe74")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.8271 151.13 0)
+			(at 177.6571 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3840,7 +3840,7 @@
 	)
 	(global_label "RFID1_irq"
 		(shape input)
-		(at 154.94 146.05 180)
+		(at 191.77 151.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3850,7 +3850,7 @@
 		)
 		(uuid "727d4812-f006-4532-9d78-0ffaab70571d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.0043 146.05 0)
+			(at 179.8343 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3889,7 +3889,7 @@
 	)
 	(global_label "SPI_cs2"
 		(shape input)
-		(at 170.18 140.97 180)
+		(at 207.01 146.05 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3899,7 +3899,7 @@
 		)
 		(uuid "75f05b18-2b96-4c42-8293-97ae383a3af3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.8167 140.97 0)
+			(at 196.6467 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4227,7 +4227,7 @@
 	)
 	(global_label "LAMPS_RESET"
 		(shape input)
-		(at 218.44 158.75 180)
+		(at 236.22 163.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4237,7 +4237,7 @@
 		)
 		(uuid "a00cec6d-3399-4760-94b2-72b2a2fd1751")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.6945 158.75 0)
+			(at 220.4745 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4741,7 +4741,7 @@
 	)
 	(global_label "RFID2_irq"
 		(shape input)
-		(at 170.18 151.13 180)
+		(at 207.01 156.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4751,7 +4751,7 @@
 		)
 		(uuid "ef08d461-37ce-4c5d-881d-a60a298ec443")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.2443 151.13 0)
+			(at 195.0743 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
