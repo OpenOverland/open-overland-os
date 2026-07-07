@@ -14,7 +14,8 @@ Custom designed control board build around ESP32-S3 module.
 5. 2-pin Molex MicroFit 3.0 headers for a connection with the Lamps;
 6. 0.5 Amps (at 12V) max. power delivery for each Lamp;
 7. Locks and Lamps are controllable via expander-ICs over I2C-bus;
-8. Normal-Closed pin of the lock switch taken by default as the input state.
+8. Normal-Closed pin of the lock switch taken by default as the input state;
+9. Communication with the RFID-module is over SPI (RC522 module considered by default).
 
 ### Main features:
 
