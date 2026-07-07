@@ -2,8 +2,19 @@
 
 Custom designed control board build around ESP32-S3 module.
 
-![preview](lock.jpeg)
+![preview](esp32_c-board.png)
 
+
+### Items for Discussion:
+
+1. Board dimensions: 105 x 130 mm, 4x M3-mounting holes (3.2mm inner diameter);
+2. XT30 header as main Power-input (up to 15 Amps);
+3. Blade-fuse holder on the board (in light-green color);
+4. 6-pin Molex MicroFit 3.0 headers for a connection with the Locks;
+5. 2-pin Molex MicroFit 3.0 headers for a connection with the Lamps;
+6. 0.5 Amps (at 12V) max. power delivery for each Lamp;
+7. Locks and Lamps are controllable via expander-ICs over I2C-bus;
+8. Normal-Closed pin of the lock switch taken by default as the input state.
 
 ### Main features:
 
