@@ -17,6 +17,47 @@ Custom designed control board build around ESP32-S3 module.
 8. Normal-Closed pin of the lock switch taken by default as the input state;
 9. Communication with the RFID-module is over SPI (RC522 module considered by default).
 
+
+### RC522 vs. PN532
+
+**RC522**
+
+`Pros`
+
+Very inexpensive (about 5$/pcs.).
+Excellent for MIFARE Classic applications.
+Easy to use.
+Low power consumption.
+
+`Cons`
+
+Primarily supports ISO14443A.
+No NFC functionality.
+*Shorter reading distance.*
+Many low-cost modules use poorly tuned antennas, reducing performance.
+
+
+**PN532**
+
+`Pros`
+
+Full-featured NFC controller.
+Supports all three NFC operating modes:
+RFID/NFC Reader
+Card Emulation
+Peer-to-Peer
+Compatible with Android smartphones.
+Supports a wider variety of RFID/NFC card types.
+*Generally offers better sensitivity and longer read range.*
+Most breakout boards allow selecting SPI, I²C, or UART via jumpers or switches.
+
+`Cons`
+
+More expensive (about 8$/pcs.).
+Slightly more complex to integrate.
+*Higher power consumption.*
+
+
 ### Main features:
 
 - ESP32-S3 as MCU with the in-built Wi-Fi and Bluetooth capabilities;
