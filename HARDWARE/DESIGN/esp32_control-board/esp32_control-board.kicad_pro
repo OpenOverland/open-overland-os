@@ -598,12 +598,72 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC part",
+          "name": "LCSC part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Description",
+          "name": "Part Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Property",
+          "name": "Property",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "R",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -648,7 +708,7 @@
         "uuid": "71812bfc-9597-4f26-a67f-4f6ff697416c"
       }
     ],
-    "used_designators": "H1-4,Q1,F1,U5,U10-16,J1-22,D4-12,C306-317,#PWR3-5,#PWR18-19,#PWR21,#PWR25-44,#PWR337,#PWR346-350,#PWR353-412,JP1-9,R2-10,R327-337",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -666,7 +726,7 @@
     ],
     [
       "7e626d92-fbb4-4155-a21c-c4528becaf1d",
-      "Periphery"
+      "Digital Outputs"
     ],
     [
       "430a2fb6-08c0-44aa-96dc-d4180b7353a5",

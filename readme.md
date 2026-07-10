@@ -4,8 +4,19 @@ Custom designed control board build around ESP32-S3 module.
 
 ![preview](esp32_c-board.png)
 
+### Main features:
 
-### Items for Discussion:
+- Overcurrent, overvoltage, reverse polarity protection;
+- ESP32-S3 as MCU with the in-built Wi-Fi and Bluetooth capabilities;
+- 8 digital amplified (up to 500mA per channel) outputs to control 8x LOCKs (each output equipped with the LED);
+- 8 digital amplified (up to 500mA per channel) outputs to control 8x LAMPs (each output equipped with the LED);
+- 8 digital protected (optical insulation) digital inputs to get 8x LOCK-STATEs;
+- 12V input power indication;
+- Transformed 3.3V power indication;
+- Automotive-grade power supply (peak voltages resistant);
+
+
+### Specification:
 
 1. Board dimensions: 105 x 130 mm, 4x M3-mounting holes (3.2mm inner diameter);
 2. XT30 header as main Power-input (up to 15 Amps);
@@ -17,6 +28,7 @@ Custom designed control board build around ESP32-S3 module.
 8. Normal-Closed pin of the lock switch taken by default as the input state;
 9. Communication with the RFID-module is over SPI (RC522 module considered by default).
 
+-------------
 
 ### RC522 vs. PN532
 
@@ -58,15 +70,8 @@ Slightly more complex to integrate.
 *Higher power consumption.*
 
 
-### Main features:
 
-- ESP32-S3 as MCU with the in-built Wi-Fi and Bluetooth capabilities;
-- 8 digital amplified (up to 500mA per channel) outputs to control 8x LOCKs;
-- 8 digital amplified (up to 500mA per channel) outputs to control 8x LAMPs;
-- 8 digital protected (optical insulation) digital inputs to get 8x LOCK-STATEs;
-- Automotive-grade power supply (peak voltages resistant);
-
------
+-------------
 
 ### Version history
 

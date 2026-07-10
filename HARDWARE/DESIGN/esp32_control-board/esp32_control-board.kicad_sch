@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "ESP32-based Control Board")
-		(date "2026-07-07")
+		(date "2026-07-10")
 		(rev "1a")
 	)
 	(lib_symbols
@@ -248,7 +248,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.16 168.91 0)
+		(at 86.36 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -259,7 +259,7 @@
 		(fields_autoplaced yes)
 		(uuid "69015b8b-4abc-4ccc-b138-b0a63a6775f0")
 		(property "Reference" "#PWR042"
-			(at 137.16 175.26 0)
+			(at 86.36 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -270,7 +270,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 173.99 0)
+			(at 86.36 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -280,7 +280,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 168.91 0)
+			(at 86.36 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -291,7 +291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 168.91 0)
+			(at 86.36 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -302,7 +302,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 168.91 0)
+			(at 86.36 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -325,7 +325,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.16 182.88 0)
+		(at 86.36 166.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -336,7 +336,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b206d3d-0ca1-4470-8e8b-8e381f9e5b1a")
 		(property "Reference" "#PWR043"
-			(at 137.16 189.23 0)
+			(at 86.36 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -347,7 +347,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 187.96 0)
+			(at 86.36 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -357,7 +357,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 182.88 0)
+			(at 86.36 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -368,7 +368,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 182.88 0)
+			(at 86.36 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -379,7 +379,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 182.88 0)
+			(at 86.36 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -402,7 +402,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 168.91 0)
+		(at 58.42 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -413,7 +413,7 @@
 		(fields_autoplaced yes)
 		(uuid "772e7f36-f0b6-42d7-9c9e-9d0df7dca5bf")
 		(property "Reference" "#PWR041"
-			(at 109.22 175.26 0)
+			(at 58.42 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -424,7 +424,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 173.99 0)
+			(at 58.42 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -434,7 +434,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 168.91 0)
+			(at 58.42 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -445,7 +445,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 168.91 0)
+			(at 58.42 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -456,7 +456,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 168.91 0)
+			(at 58.42 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -479,7 +479,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 109.22 180.34 0)
+		(at 58.42 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -490,7 +490,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f0f3cd9-62b4-47d6-9a6c-9b35d927d1c3")
 		(property "Reference" "H3"
-			(at 111.76 177.7999 0)
+			(at 60.96 161.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -501,7 +501,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 111.76 180.3399 0)
+			(at 60.96 163.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -512,7 +512,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 109.22 180.34 0)
+			(at 58.42 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -523,7 +523,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 180.34 0)
+			(at 58.42 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -534,7 +534,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 109.22 180.34 0)
+			(at 58.42 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -545,7 +545,7 @@
 			)
 		)
 		(property "LCSC part" ""
-			(at 109.22 180.34 0)
+			(at 58.42 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -556,7 +556,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 109.22 180.34 0)
+			(at 58.42 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -567,7 +567,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 109.22 180.34 0)
+			(at 58.42 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -577,7 +577,7 @@
 			)
 		)
 		(property "Property" ""
-			(at 109.22 180.34 0)
+			(at 58.42 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -587,7 +587,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 109.22 180.34 0)
+			(at 58.42 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -611,7 +611,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 137.16 166.37 0)
+		(at 86.36 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -622,7 +622,7 @@
 		(fields_autoplaced yes)
 		(uuid "86542e41-4a5f-493d-bc46-df0b772bdb41")
 		(property "Reference" "H2"
-			(at 139.7 163.8299 0)
+			(at 88.9 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -633,7 +633,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 139.7 166.3699 0)
+			(at 88.9 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -644,7 +644,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 137.16 166.37 0)
+			(at 86.36 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -655,7 +655,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 166.37 0)
+			(at 86.36 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -666,7 +666,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 137.16 166.37 0)
+			(at 86.36 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -677,7 +677,7 @@
 			)
 		)
 		(property "LCSC part" ""
-			(at 137.16 166.37 0)
+			(at 86.36 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -688,7 +688,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 137.16 166.37 0)
+			(at 86.36 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -699,7 +699,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 137.16 166.37 0)
+			(at 86.36 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -709,7 +709,7 @@
 			)
 		)
 		(property "Property" ""
-			(at 137.16 166.37 0)
+			(at 86.36 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -719,7 +719,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 137.16 166.37 0)
+			(at 86.36 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -743,7 +743,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 137.16 180.34 0)
+		(at 86.36 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -754,7 +754,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f7968c1-9909-4231-bc56-6a2b8fc88b80")
 		(property "Reference" "H4"
-			(at 139.7 177.7999 0)
+			(at 88.9 161.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -765,7 +765,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 139.7 180.3399 0)
+			(at 88.9 163.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -776,7 +776,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 137.16 180.34 0)
+			(at 86.36 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -787,7 +787,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 180.34 0)
+			(at 86.36 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -798,7 +798,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 137.16 180.34 0)
+			(at 86.36 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -809,7 +809,7 @@
 			)
 		)
 		(property "LCSC part" ""
-			(at 137.16 180.34 0)
+			(at 86.36 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -820,7 +820,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 137.16 180.34 0)
+			(at 86.36 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -831,7 +831,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 137.16 180.34 0)
+			(at 86.36 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -841,7 +841,7 @@
 			)
 		)
 		(property "Property" ""
-			(at 137.16 180.34 0)
+			(at 86.36 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -851,7 +851,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 137.16 180.34 0)
+			(at 86.36 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -875,7 +875,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 109.22 166.37 0)
+		(at 58.42 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -886,7 +886,7 @@
 		(fields_autoplaced yes)
 		(uuid "b279844c-0ec5-467e-85b7-13f6b02f739f")
 		(property "Reference" "H1"
-			(at 111.76 163.8299 0)
+			(at 60.96 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -897,7 +897,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 111.76 166.3699 0)
+			(at 60.96 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -908,7 +908,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 109.22 166.37 0)
+			(at 58.42 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -919,7 +919,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 166.37 0)
+			(at 58.42 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -930,7 +930,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 109.22 166.37 0)
+			(at 58.42 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -941,7 +941,7 @@
 			)
 		)
 		(property "LCSC part" ""
-			(at 109.22 166.37 0)
+			(at 58.42 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -952,7 +952,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 109.22 166.37 0)
+			(at 58.42 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -963,7 +963,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 109.22 166.37 0)
+			(at 58.42 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -973,7 +973,7 @@
 			)
 		)
 		(property "Property" ""
-			(at 109.22 166.37 0)
+			(at 58.42 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -983,7 +983,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 109.22 166.37 0)
+			(at 58.42 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1007,7 +1007,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 182.88 0)
+		(at 58.42 166.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1018,7 +1018,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6fa400b-034b-4f26-b9b8-2eb5a1cc0f3c")
 		(property "Reference" "#PWR040"
-			(at 109.22 189.23 0)
+			(at 58.42 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1029,7 +1029,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 187.96 0)
+			(at 58.42 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1039,7 +1039,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 182.88 0)
+			(at 58.42 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1050,7 +1050,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 182.88 0)
+			(at 58.42 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1061,7 +1061,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 182.88 0)
+			(at 58.42 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1083,80 +1083,35 @@
 		)
 	)
 	(sheet
-		(at 157.48 59.69)
-		(size 115.57 24.13)
+		(at 152.4 25.4)
+		(size 114.3 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 204 255 204 1)
 		)
 		(uuid "430a2fb6-08c0-44aa-96dc-d4180b7353a5")
 		(property "Sheetname" "Digital Inputs"
-			(at 157.48 58.9784 0)
+			(at 187.706 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 3.81 3.81)
+					(thickness 0.762)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "esp32cb_inputs.kicad_sch"
-			(at 157.48 84.4046 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "esp32_control-board"
-				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 26.67 110.49)
-		(size 120.65 24.13)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "7e626d92-fbb4-4155-a21c-c4528becaf1d")
-		(property "Sheetname" "Periphery"
-			(at 26.67 109.7784 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "esp32cb_periphery.kicad_sch"
-			(at 26.67 135.2046 0)
+			(at 152.4 64.0846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1175,34 +1130,35 @@
 		)
 	)
 	(sheet
-		(at 26.67 73.66)
-		(size 120.65 25.4)
+		(at 152.4 76.2)
+		(size 114.3 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 179 230 255 1)
 		)
-		(uuid "b211aa99-c245-41c6-9b64-a229e59ffb83")
-		(property "Sheetname" "Main"
-			(at 26.67 72.9484 0)
+		(uuid "7e626d92-fbb4-4155-a21c-c4528becaf1d")
+		(property "Sheetname" "Digital Outputs"
+			(at 187.452 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 3.81 3.81)
+					(thickness 0.762)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp32cb_main.kicad_sch"
-			(at 26.67 99.6446 0)
+		(property "Sheetfile" "esp32cb_periphery.kicad_sch"
+			(at 152.4 114.8846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1221,34 +1177,35 @@
 		)
 	)
 	(sheet
-		(at 25.4 29.21)
-		(size 121.92 25.4)
+		(at 25.4 76.2)
+		(size 114.3 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 255 204 204 1)
 		)
-		(uuid "e255ea4e-2490-4665-a349-598d2436ecff")
-		(property "Sheetname" "Power"
-			(at 25.4 28.4984 0)
+		(uuid "b211aa99-c245-41c6-9b64-a229e59ffb83")
+		(property "Sheetname" "Main"
+			(at 74.422 98.298 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 3.81 3.81)
+					(thickness 0.762)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "esp32cb_power.kicad_sch"
-			(at 25.4 55.1946 0)
+		(property "Sheetfile" "esp32cb_main.kicad_sch"
+			(at 25.4 114.8846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1266,9 +1223,56 @@
 			)
 		)
 	)
+	(sheet
+		(at 25.4 25.4)
+		(size 114.3 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 204 255 1)
+		)
+		(uuid "e255ea4e-2490-4665-a349-598d2436ecff")
+		(property "Sheetname" "Power"
+			(at 72.136 46.228 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 3.81 3.81)
+					(thickness 0.762)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp32cb_power.kicad_sch"
+			(at 25.4 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "esp32_control-board"
+				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c"
+					(page "1")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
-			(page "1")
+			(page "0")
 		)
 	)
 	(embedded_fonts no)
