@@ -6,7 +6,7 @@
 	(paper "A2")
 	(title_block
 		(title "ESP32-based Control Board")
-		(date "2026-07-10")
+		(date "2026-07-14")
 		(rev "1a")
 	)
 	(lib_symbols
@@ -1088,6 +1088,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Bridged"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, closed/bridged"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_1"
+				(arc
+					(start -1.524 0.254)
+					(mid 0 0.762)
+					(end 1.524 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Jumper:Jumper_3_Bridged12"
 			(pin_names
 				(offset 0)
@@ -2082,16 +2248,6 @@
 	)
 	(wire
 		(pts
-			(xy 516.89 215.9) (xy 486.41 215.9)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "0357e502-3ffb-4d46-9c9c-4e69c32d23cd")
-	)
-	(wire
-		(pts
 			(xy 133.35 215.9) (xy 133.35 219.71)
 		)
 		(stroke
@@ -2162,6 +2318,16 @@
 	)
 	(wire
 		(pts
+			(xy 506.73 254) (xy 516.89 254)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "081fbaed-1cbf-49c6-bb04-167522827e56")
+	)
+	(wire
+		(pts
 			(xy 311.15 215.9) (xy 311.15 219.71)
 		)
 		(stroke
@@ -2179,6 +2345,16 @@
 			(type default)
 		)
 		(uuid "08c7afa2-5161-4416-86a4-7e113d51c9c2")
+	)
+	(wire
+		(pts
+			(xy 506.73 330.2) (xy 516.89 330.2)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "0a134f05-f226-4b43-9caa-e589dae81fb6")
 	)
 	(wire
 		(pts
@@ -2272,16 +2448,6 @@
 	)
 	(wire
 		(pts
-			(xy 516.89 101.6) (xy 486.41 101.6)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "11cade8d-5826-48fb-8afc-47686f79748c")
-	)
-	(wire
-		(pts
 			(xy 486.41 254) (xy 486.41 242.57)
 		)
 		(stroke
@@ -2352,6 +2518,16 @@
 	)
 	(wire
 		(pts
+			(xy 506.73 63.5) (xy 516.89 63.5)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "1902c712-3f67-4d23-8035-7113db720812")
+	)
+	(wire
+		(pts
 			(xy 124.46 152.4) (xy 133.35 152.4)
 		)
 		(stroke
@@ -2382,6 +2558,16 @@
 	)
 	(wire
 		(pts
+			(xy 506.73 292.1) (xy 516.89 292.1)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "1c45a340-8e90-492c-bdb5-57d31adce909")
+	)
+	(wire
+		(pts
 			(xy 133.35 88.9) (xy 157.48 88.9)
 		)
 		(stroke
@@ -2399,6 +2585,16 @@
 			(type default)
 		)
 		(uuid "1d19dd8c-072c-467a-96b9-e27092656383")
+	)
+	(wire
+		(pts
+			(xy 486.41 139.7) (xy 496.57 139.7)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "1e101a4a-ada6-4665-a7a8-b61621e41c69")
 	)
 	(wire
 		(pts
@@ -2449,16 +2645,6 @@
 			(type default)
 		)
 		(uuid "2428e3c1-00bc-43c9-bc01-bc458251b7c9")
-	)
-	(wire
-		(pts
-			(xy 516.89 177.8) (xy 486.41 177.8)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "24ae5d1a-151c-4cec-9439-699c11638b6f")
 	)
 	(wire
 		(pts
@@ -2552,6 +2738,16 @@
 	)
 	(wire
 		(pts
+			(xy 506.73 101.6) (xy 516.89 101.6)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "2d7f7639-f796-4ffc-b865-255c217c66c6")
+	)
+	(wire
+		(pts
 			(xy 486.41 215.9) (xy 486.41 204.47)
 		)
 		(stroke
@@ -2609,16 +2805,6 @@
 			(type default)
 		)
 		(uuid "341f47ca-96c4-43cb-b643-6f3191b6dbee")
-	)
-	(wire
-		(pts
-			(xy 516.89 292.1) (xy 486.41 292.1)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "3448f79b-e9db-4e20-b0ef-890f9a5aad47")
 	)
 	(wire
 		(pts
@@ -2742,6 +2928,26 @@
 	)
 	(wire
 		(pts
+			(xy 486.41 177.8) (xy 496.57 177.8)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "420e8db2-0229-4824-87f2-30ebb92ab266")
+	)
+	(wire
+		(pts
+			(xy 506.73 177.8) (xy 516.89 177.8)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "4261cc92-5755-48f9-aa0b-5af944bde9c1")
+	)
+	(wire
+		(pts
 			(xy 381 148.59) (xy 381 152.4)
 		)
 		(stroke
@@ -2779,16 +2985,6 @@
 			(type dash)
 		)
 		(uuid "45bac9d2-9511-4e82-bdf2-84f3a8996a87")
-	)
-	(wire
-		(pts
-			(xy 516.89 330.2) (xy 486.41 330.2)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "474f3bf1-e3af-4524-949a-b2ea495e620c")
 	)
 	(wire
 		(pts
@@ -2852,16 +3048,6 @@
 	)
 	(wire
 		(pts
-			(xy 516.89 254) (xy 486.41 254)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "512619ca-b762-4421-be3a-3dd1d703ab7c")
-	)
-	(wire
-		(pts
 			(xy 83.82 165.1) (xy 88.9 165.1)
 		)
 		(stroke
@@ -2899,6 +3085,16 @@
 			(type default)
 		)
 		(uuid "5a5a66a7-e87b-4e7c-b365-1dcd47876add")
+	)
+	(wire
+		(pts
+			(xy 486.41 63.5) (xy 496.57 63.5)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "5cd11345-40a8-47db-ace1-a36386cc9449")
 	)
 	(wire
 		(pts
@@ -3109,6 +3305,16 @@
 			(type default)
 		)
 		(uuid "7895b4c4-4fee-46c8-ae21-5bf5c2ff04b1")
+	)
+	(wire
+		(pts
+			(xy 486.41 292.1) (xy 496.57 292.1)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "78b57478-f452-47cc-af14-581b177cc6d7")
 	)
 	(wire
 		(pts
@@ -3332,6 +3538,16 @@
 	)
 	(wire
 		(pts
+			(xy 486.41 101.6) (xy 496.57 101.6)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "94a8d111-6ae3-4709-80fa-646c73f8a366")
+	)
+	(wire
+		(pts
 			(xy 177.8 74.93) (xy 177.8 77.47)
 		)
 		(stroke
@@ -3389,6 +3605,16 @@
 			(type default)
 		)
 		(uuid "98e197d1-684d-476d-bf43-da107b58feba")
+	)
+	(wire
+		(pts
+			(xy 506.73 215.9) (xy 516.89 215.9)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "993a5947-e8a6-4682-8483-5d32938a5c60")
 	)
 	(wire
 		(pts
@@ -3752,16 +3978,6 @@
 	)
 	(wire
 		(pts
-			(xy 516.89 139.7) (xy 486.41 139.7)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "beb80989-5911-4e0c-8fda-32dd88c33d70")
-	)
-	(wire
-		(pts
 			(xy 311.15 293.37) (xy 311.15 290.83)
 		)
 		(stroke
@@ -3799,6 +4015,16 @@
 			(type default)
 		)
 		(uuid "c2fc506b-3bb9-46a9-9068-4a4f1fd1ee02")
+	)
+	(wire
+		(pts
+			(xy 486.41 254) (xy 496.57 254)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "c3904939-49ac-40e5-ae8d-b79cdde9cc9d")
 	)
 	(wire
 		(pts
@@ -4002,6 +4228,16 @@
 	)
 	(wire
 		(pts
+			(xy 486.41 330.2) (xy 496.57 330.2)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "db3d576b-a021-4815-bdcf-ea55a0829727")
+	)
+	(wire
+		(pts
 			(xy 177.8 215.9) (xy 172.72 215.9)
 		)
 		(stroke
@@ -4092,6 +4328,16 @@
 	)
 	(wire
 		(pts
+			(xy 486.41 215.9) (xy 496.57 215.9)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "e3224841-fc5a-4f84-8525-bc4950d68001")
+	)
+	(wire
+		(pts
 			(xy 133.35 102.87) (xy 133.35 100.33)
 		)
 		(stroke
@@ -4162,16 +4408,6 @@
 	)
 	(wire
 		(pts
-			(xy 516.89 63.5) (xy 486.41 63.5)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "e9ce841c-4d9c-47a5-8886-8cc898ad684b")
-	)
-	(wire
-		(pts
 			(xy 292.1 203.2) (xy 287.02 203.2)
 		)
 		(stroke
@@ -4199,6 +4435,16 @@
 			(type default)
 		)
 		(uuid "ed0a0936-5803-4a59-973a-158e02aa7ed0")
+	)
+	(wire
+		(pts
+			(xy 506.73 139.7) (xy 516.89 139.7)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "ef00179b-b12e-4613-b058-970499dbcca3")
 	)
 	(wire
 		(pts
@@ -5675,7 +5921,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00872ae5-a2c9-4168-82fe-154b7e1252ad")
-		(property "Reference" "U12"
+		(property "Reference" "U404"
 			(at 165.1 274.066 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5788,7 +6034,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "U12")
+					(reference "U404")
 					(unit 1)
 				)
 			)
@@ -5806,7 +6052,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0189b77b-2e5d-4473-9962-ead5a29350dd")
-		(property "Reference" "#PWR0373"
+		(property "Reference" "#PWR0418"
 			(at 177.8 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -5907,7 +6153,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0373")
+					(reference "#PWR0418")
 					(unit 1)
 				)
 			)
@@ -5924,7 +6170,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "03d743b2-f1e6-462d-a731-b193df507c85")
-		(property "Reference" "U15"
+		(property "Reference" "U407"
 			(at 368.3 210.566 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6037,7 +6283,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "U15")
+					(reference "U407")
 					(unit 1)
 				)
 			)
@@ -6054,7 +6300,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "04ce715a-dd7b-41b9-bf8c-4b6b36d69f64")
-		(property "Reference" "D4"
+		(property "Reference" "D401"
 			(at 135.636 94.234 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6183,7 +6429,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "D4")
+					(reference "D401")
 					(unit 1)
 				)
 			)
@@ -6201,7 +6447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06db741f-ea3e-4724-a696-3c289c5fa91f")
-		(property "Reference" "#PWR0362"
+		(property "Reference" "#PWR0455"
 			(at 495.3 278.13 0)
 			(hide yes)
 			(show_name no)
@@ -6261,7 +6507,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0362")
+					(reference "#PWR0455")
 					(unit 1)
 				)
 			)
@@ -6279,7 +6525,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "073035e8-fd0e-4b70-a76d-cdd588a8ea68")
-		(property "Reference" "#PWR0396"
+		(property "Reference" "#PWR0438"
 			(at 381 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -6380,7 +6626,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0396")
+					(reference "#PWR0438")
 					(unit 1)
 				)
 			)
@@ -6397,7 +6643,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "077741a0-8a5e-4278-b72a-7a11d8fcc90c")
-		(property "Reference" "D8"
+		(property "Reference" "D405"
 			(at 338.836 94.234 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6526,7 +6772,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "D8")
+					(reference "D405")
 					(unit 1)
 				)
 			)
@@ -6544,7 +6790,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a48d513-6795-4b02-99be-b6bd222fe0cc")
-		(property "Reference" "C306"
+		(property "Reference" "C401"
 			(at 104.648 93.218 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6651,7 +6897,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "C306")
+					(reference "C401")
 					(unit 1)
 				)
 			)
@@ -6668,7 +6914,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ce9770e-7a80-4f96-a4d3-85e41d6a5077")
-		(property "Reference" "R329"
+		(property "Reference" "R406"
 			(at 179.832 141.478 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6786,7 +7032,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "R329")
+					(reference "R406")
 					(unit 1)
 				)
 			)
@@ -6803,7 +7049,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e062f39-593a-45dc-b1e6-b71309a5ec05")
-		(property "Reference" "R331"
+		(property "Reference" "R408"
 			(at 179.832 268.478 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6921,7 +7167,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "R331")
+					(reference "R408")
 					(unit 1)
 				)
 			)
@@ -6938,7 +7184,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0eb08ebf-5991-4931-9b8b-9ca66f6a77e1")
-		(property "Reference" "J5"
+		(property "Reference" "J405"
 			(at 508 195.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7054,7 +7300,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "J5")
+					(reference "J405")
 					(unit 1)
 				)
 			)
@@ -7071,7 +7317,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0fad1be4-63a9-4c38-9674-1df637386a92")
-		(property "Reference" "U5"
+		(property "Reference" "U401"
 			(at 165.1 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7184,7 +7430,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "U5")
+					(reference "U401")
 					(unit 1)
 				)
 			)
@@ -7201,7 +7447,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1af97fb5-3a8e-438c-ac09-037c6c8206ec")
-		(property "Reference" "D9"
+		(property "Reference" "D406"
 			(at 338.836 157.734 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7330,7 +7576,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "D9")
+					(reference "D406")
 					(unit 1)
 				)
 			)
@@ -7347,7 +7593,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1c0ac6ab-af64-4c24-a136-de3983eccd2c")
-		(property "Reference" "R4"
+		(property "Reference" "R403"
 			(at 120.65 211.582 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7452,7 +7698,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "R4")
+					(reference "R403")
 					(unit 1)
 				)
 			)
@@ -7470,7 +7716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f0f5821-fa05-49c1-b263-4ffbb3228b72")
-		(property "Reference" "JP6"
+		(property "Reference" "JP405"
 			(at 289.56 87.6299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7579,7 +7825,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "JP6")
+					(reference "JP405")
 					(unit 1)
 				)
 			)
@@ -7598,7 +7844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22455772-35bb-4708-8fb8-55a1d2309854")
-		(property "Reference" "#PWR0377"
+		(property "Reference" "#PWR0419"
 			(at 177.8 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -7658,7 +7904,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0377")
+					(reference "#PWR0419")
 					(unit 1)
 				)
 			)
@@ -7676,7 +7922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2485f96c-7070-4d10-ac49-f2b602c09d8d")
-		(property "Reference" "#PWR0359"
+		(property "Reference" "#PWR0452"
 			(at 495.3 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -7736,7 +7982,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0359")
+					(reference "#PWR0452")
 					(unit 1)
 				)
 			)
@@ -7753,7 +7999,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2836bbf2-ff39-40c1-a361-7f412ea257be")
-		(property "Reference" "R3"
+		(property "Reference" "R402"
 			(at 120.65 148.082 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7858,7 +8104,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "R3")
+					(reference "R402")
 					(unit 1)
 				)
 			)
@@ -7876,7 +8122,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a3603f7-a45a-4675-a6ff-5271a8265a9d")
-		(property "Reference" "#PWR0387"
+		(property "Reference" "#PWR0429"
 			(at 355.6 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -7935,7 +8181,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0387")
+					(reference "#PWR0429")
 					(unit 1)
 				)
 			)
@@ -7953,7 +8199,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a617a0b-8f53-45a6-9483-e436a2335258")
-		(property "Reference" "#PWR0371"
+		(property "Reference" "#PWR0411"
 			(at 152.4 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -8012,7 +8258,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0371")
+					(reference "#PWR0411")
 					(unit 1)
 				)
 			)
@@ -8030,7 +8276,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2dc2a187-79d1-471d-aad6-721640ae9e1c")
-		(property "Reference" "#PWR0370"
+		(property "Reference" "#PWR0407"
 			(at 133.35 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -8089,7 +8335,129 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0370")
+					(reference "#PWR0407")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 501.65 177.8 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "34f1c259-8c0c-46da-afee-104d771ea911")
+		(property "Reference" "JP412"
+			(at 501.65 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12V-to-COM"
+			(at 501.65 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 501.65 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 501.65 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 501.65 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 501.65 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 501.65 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 501.65 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Property" ""
+			(at 501.65 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0fc2c596-f5ed-46e9-8ffa-dd101cd2546d")
+		)
+		(pin "2"
+			(uuid "1365bc45-5f5f-4ea7-a091-90a6c2ffdb02")
+		)
+		(instances
+			(project "esp32_control-board"
+				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
+					(reference "JP412")
 					(unit 1)
 				)
 			)
@@ -8107,7 +8475,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "37b4a163-ef6f-4398-b276-573c4a6f7761")
-		(property "Reference" "#PWR0364"
+		(property "Reference" "#PWR0402"
 			(at 107.95 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -8166,7 +8534,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0364")
+					(reference "#PWR0402")
 					(unit 1)
 				)
 			)
@@ -8183,7 +8551,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "37cd6e6b-ab82-4bdf-9a18-6780fe951e84")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR0444"
 			(at 486.41 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -8242,7 +8610,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR026")
+					(reference "#PWR0444")
 					(unit 1)
 				)
 			)
@@ -8260,7 +8628,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3940aa0d-cdc6-4aa8-a5f3-d80f45f6f1f2")
-		(property "Reference" "#PWR0398"
+		(property "Reference" "#PWR0440"
 			(at 381 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -8361,7 +8729,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0398")
+					(reference "#PWR0440")
 					(unit 1)
 				)
 			)
@@ -8378,7 +8746,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ac07110-ef74-4ec9-8e68-7dff76eb41c5")
-		(property "Reference" "U10"
+		(property "Reference" "U402"
 			(at 165.1 147.066 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8491,7 +8859,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "U10")
+					(reference "U402")
 					(unit 1)
 				)
 			)
@@ -8509,7 +8877,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c63d146-c6bf-4a0c-879b-45f841b3a3c2")
-		(property "Reference" "#PWR0350"
+		(property "Reference" "#PWR0414"
 			(at 177.8 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -8610,7 +8978,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0350")
+					(reference "#PWR0414")
 					(unit 1)
 				)
 			)
@@ -8628,7 +8996,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "448ef2b0-8d1d-4ce3-a949-1fe22ab6fe12")
-		(property "Reference" "#PWR0375"
+		(property "Reference" "#PWR0408"
 			(at 133.35 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -8687,7 +9055,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0375")
+					(reference "#PWR0408")
 					(unit 1)
 				)
 			)
@@ -8704,7 +9072,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45bd03f3-50fc-4983-b817-44f5c2529ef5")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR0447"
 			(at 486.41 276.86 0)
 			(hide yes)
 			(show_name no)
@@ -8763,7 +9131,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR029")
+					(reference "#PWR0447")
 					(unit 1)
 				)
 			)
@@ -8781,7 +9149,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "47095217-6448-4a69-98f2-1b6893656484")
-		(property "Reference" "C307"
+		(property "Reference" "C402"
 			(at 104.648 156.718 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8888,7 +9256,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "C307")
+					(reference "C402")
 					(unit 1)
 				)
 			)
@@ -8906,7 +9274,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "47a03196-0421-4c45-82f1-3f8204154c73")
-		(property "Reference" "#PWR0356"
+		(property "Reference" "#PWR0401"
 			(at 107.95 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -8965,7 +9333,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0356")
+					(reference "#PWR0401")
 					(unit 1)
 				)
 			)
@@ -8982,7 +9350,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4830695f-e8aa-4d75-9d2b-e4053c30ade0")
-		(property "Reference" "D6"
+		(property "Reference" "D403"
 			(at 135.636 221.234 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9111,7 +9479,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "D6")
+					(reference "D403")
 					(unit 1)
 				)
 			)
@@ -9129,7 +9497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "484a2777-1e41-4659-ad2c-923662a75afe")
-		(property "Reference" "#PWR0358"
+		(property "Reference" "#PWR0451"
 			(at 495.3 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -9189,7 +9557,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0358")
+					(reference "#PWR0451")
 					(unit 1)
 				)
 			)
@@ -9207,7 +9575,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "48bab85b-de41-4a8f-9507-646e9792cf2e")
-		(property "Reference" "#PWR0369"
+		(property "Reference" "#PWR0403"
 			(at 107.95 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -9266,7 +9634,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0369")
+					(reference "#PWR0403")
 					(unit 1)
 				)
 			)
@@ -9284,7 +9652,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c54e7eb-f765-49f7-bc0d-a1bf85f3973a")
-		(property "Reference" "C310"
+		(property "Reference" "C405"
 			(at 307.848 93.218 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9391,7 +9759,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "C310")
+					(reference "C405")
 					(unit 1)
 				)
 			)
@@ -9408,7 +9776,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4fd9ba47-617e-4913-8228-589fc182ec0e")
-		(property "Reference" "R7"
+		(property "Reference" "R410"
 			(at 323.85 148.082 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9513,7 +9881,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "R7")
+					(reference "R410")
 					(unit 1)
 				)
 			)
@@ -9530,7 +9898,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "551f1f96-98fa-440d-8f3a-6723bdff1a98")
-		(property "Reference" "D10"
+		(property "Reference" "D407"
 			(at 338.836 221.234 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9659,7 +10027,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "D10")
+					(reference "D407")
 					(unit 1)
 				)
 			)
@@ -9677,7 +10045,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "58e5abb3-95a8-4ebd-95f3-e5484d4f7c23")
-		(property "Reference" "C311"
+		(property "Reference" "C406"
 			(at 307.848 156.718 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9784,7 +10152,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "C311")
+					(reference "C406")
 					(unit 1)
 				)
 			)
@@ -9801,7 +10169,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "590843af-6723-4b64-a96b-1c03ba70c561")
-		(property "Reference" "J8"
+		(property "Reference" "J408"
 			(at 508 309.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9917,7 +10285,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "J8")
+					(reference "J408")
 					(unit 1)
 				)
 			)
@@ -9934,7 +10302,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59d5d564-6253-4e06-8b88-f0a17c3a843c")
-		(property "Reference" "R330"
+		(property "Reference" "R407"
 			(at 179.832 204.978 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10052,7 +10420,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "R330")
+					(reference "R407")
 					(unit 1)
 				)
 			)
@@ -10069,7 +10437,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "60264ca0-1132-4ad9-81e8-d53cc9dfb8a2")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR0442"
 			(at 486.41 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -10128,7 +10496,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR021")
+					(reference "#PWR0442")
 					(unit 1)
 				)
 			)
@@ -10147,7 +10515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "622034e7-12d1-45d2-8823-8c83b582caf5")
-		(property "Reference" "#PWR0391"
+		(property "Reference" "#PWR0433"
 			(at 381 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -10207,7 +10575,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0391")
+					(reference "#PWR0433")
 					(unit 1)
 				)
 			)
@@ -10225,7 +10593,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62f26ca8-1ae8-4164-a751-a9a25158327e")
-		(property "Reference" "C308"
+		(property "Reference" "C403"
 			(at 104.648 220.218 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10332,7 +10700,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "C308")
+					(reference "C403")
 					(unit 1)
 				)
 			)
@@ -10350,7 +10718,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "634e21ed-0581-4226-b980-e9c4fe50fc14")
-		(property "Reference" "#PWR0394"
+		(property "Reference" "#PWR0436"
 			(at 381 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -10451,7 +10819,129 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0394")
+					(reference "#PWR0436")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 501.65 292.1 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "66d05417-d9cc-49f9-9f1f-e0f95be0227d")
+		(property "Reference" "JP415"
+			(at 501.65 297.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12V-to-COM"
+			(at 501.65 294.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 501.65 292.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 501.65 287.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 501.65 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 501.65 292.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 501.65 292.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 501.65 292.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Property" ""
+			(at 501.65 292.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "247d2128-223b-4a28-95ca-f0732079a86b")
+		)
+		(pin "2"
+			(uuid "8850a9f5-cd73-422d-bf94-e63f0c2fe6a3")
+		)
+		(instances
+			(project "esp32_control-board"
+				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
+					(reference "JP415")
 					(unit 1)
 				)
 			)
@@ -10468,7 +10958,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "675ad8dd-f750-4c3f-95e7-177157bf4a67")
-		(property "Reference" "J3"
+		(property "Reference" "J403"
 			(at 508 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10584,7 +11074,129 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "J3")
+					(reference "J403")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 501.65 139.7 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "6c4ea75c-9245-477f-9a60-3eea302c3236")
+		(property "Reference" "JP411"
+			(at 501.65 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12V-to-COM"
+			(at 501.65 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 501.65 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 501.65 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 501.65 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 501.65 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 501.65 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 501.65 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Property" ""
+			(at 501.65 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "238946bf-d038-4307-b516-36cd81fefd81")
+		)
+		(pin "2"
+			(uuid "963fb1ef-3bc4-40a7-809a-b46d644e8ec6")
+		)
+		(instances
+			(project "esp32_control-board"
+				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
+					(reference "JP411")
 					(unit 1)
 				)
 			)
@@ -10602,7 +11214,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6cc84b35-df43-4db7-8a84-52f79f561a98")
-		(property "Reference" "C309"
+		(property "Reference" "C404"
 			(at 104.648 283.718 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10709,7 +11321,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "C309")
+					(reference "C404")
 					(unit 1)
 				)
 			)
@@ -10727,7 +11339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72b37dd8-58d6-4d52-9981-59d705a5ba81")
-		(property "Reference" "JP5"
+		(property "Reference" "JP404"
 			(at 86.36 278.1299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10836,7 +11448,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "JP5")
+					(reference "JP404")
 					(unit 1)
 				)
 			)
@@ -10853,7 +11465,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "770e47cf-787d-45ea-8b06-003f4af7db4a")
-		(property "Reference" "R2"
+		(property "Reference" "R401"
 			(at 120.65 84.582 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10958,7 +11570,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "R2")
+					(reference "R401")
 					(unit 1)
 				)
 			)
@@ -10975,7 +11587,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "78f9f897-ccde-4cec-9da1-33d4b50a4b90")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR0443"
 			(at 486.41 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -11034,7 +11646,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR025")
+					(reference "#PWR0443")
 					(unit 1)
 				)
 			)
@@ -11052,7 +11664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7934923d-614c-43dc-bc41-5c0a34ea5306")
-		(property "Reference" "#PWR0357"
+		(property "Reference" "#PWR0450"
 			(at 495.3 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -11112,7 +11724,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0357")
+					(reference "#PWR0450")
 					(unit 1)
 				)
 			)
@@ -11131,7 +11743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "803c574e-3756-40ac-858d-e71a460b42c5")
-		(property "Reference" "#PWR0367"
+		(property "Reference" "#PWR0415"
 			(at 177.8 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -11191,7 +11803,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0367")
+					(reference "#PWR0415")
 					(unit 1)
 				)
 			)
@@ -11209,7 +11821,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "81b00b37-6403-47de-933e-1d93d2cdee75")
-		(property "Reference" "#PWR0385"
+		(property "Reference" "#PWR0427"
 			(at 336.55 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -11268,7 +11880,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0385")
+					(reference "#PWR0427")
 					(unit 1)
 				)
 			)
@@ -11286,7 +11898,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8234c0ac-562a-4de2-9ae3-5d275eb80326")
-		(property "Reference" "#PWR0368"
+		(property "Reference" "#PWR0416"
 			(at 177.8 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -11387,7 +11999,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0368")
+					(reference "#PWR0416")
 					(unit 1)
 				)
 			)
@@ -11406,7 +12018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "840a20a1-235c-4bda-ada0-2f426b6cc33c")
-		(property "Reference" "#PWR0395"
+		(property "Reference" "#PWR0437"
 			(at 381 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -11466,7 +12078,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0395")
+					(reference "#PWR0437")
 					(unit 1)
 				)
 			)
@@ -11484,7 +12096,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84c0cdf4-902c-4a53-98a3-231986111a7f")
-		(property "Reference" "JP4"
+		(property "Reference" "JP403"
 			(at 86.36 214.6299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11593,7 +12205,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "JP4")
+					(reference "JP403")
 					(unit 1)
 				)
 			)
@@ -11611,7 +12223,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "85feb2ae-b9bf-4e40-99f6-900d4a543a8d")
-		(property "Reference" "#PWR0384"
+		(property "Reference" "#PWR0426"
 			(at 336.55 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -11670,7 +12282,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0384")
+					(reference "#PWR0426")
 					(unit 1)
 				)
 			)
@@ -11688,7 +12300,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89fd6369-9d3e-4680-b0fd-5b898cc800cf")
-		(property "Reference" "#PWR0380"
+		(property "Reference" "#PWR0422"
 			(at 311.15 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -11747,7 +12359,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0380")
+					(reference "#PWR0422")
 					(unit 1)
 				)
 			)
@@ -11765,7 +12377,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b4c4bd1-804a-4790-84d3-b743bdfd3e0c")
-		(property "Reference" "#PWR0349"
+		(property "Reference" "#PWR0409"
 			(at 152.4 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -11824,7 +12436,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0349")
+					(reference "#PWR0409")
 					(unit 1)
 				)
 			)
@@ -11841,7 +12453,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c2ed854-72a9-49f8-b08b-ff46ec2bce01")
-		(property "Reference" "R9"
+		(property "Reference" "R412"
 			(at 323.85 275.082 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11946,7 +12558,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "R9")
+					(reference "R412")
 					(unit 1)
 				)
 			)
@@ -11964,7 +12576,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e28320c-78fc-4a67-bcb3-4c30f9f92d4a")
-		(property "Reference" "#PWR0366"
+		(property "Reference" "#PWR0410"
 			(at 152.4 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -12023,7 +12635,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0366")
+					(reference "#PWR0410")
 					(unit 1)
 				)
 			)
@@ -12040,7 +12652,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8eedb497-db91-4c7e-bce8-43e0e7656bd6")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR0448"
 			(at 486.41 314.96 0)
 			(hide yes)
 			(show_name no)
@@ -12099,7 +12711,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR030")
+					(reference "#PWR0448")
 					(unit 1)
 				)
 			)
@@ -12117,7 +12729,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91da2e9a-ce8f-414f-a9f2-2ffe875a207b")
-		(property "Reference" "#PWR0383"
+		(property "Reference" "#PWR0425"
 			(at 336.55 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -12176,7 +12788,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0383")
+					(reference "#PWR0425")
 					(unit 1)
 				)
 			)
@@ -12193,7 +12805,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "92c1f150-c060-41f7-b311-2053d2856ea3")
-		(property "Reference" "U16"
+		(property "Reference" "U408"
 			(at 368.3 274.066 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12306,7 +12918,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "U16")
+					(reference "U408")
 					(unit 1)
 				)
 			)
@@ -12324,7 +12936,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9350c019-5a0b-4de0-a2f9-42cddc145de7")
-		(property "Reference" "#PWR0379"
+		(property "Reference" "#PWR0421"
 			(at 311.15 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -12383,7 +12995,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0379")
+					(reference "#PWR0421")
 					(unit 1)
 				)
 			)
@@ -12401,7 +13013,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "96b6092a-0baa-4441-8082-317cd7efdddb")
-		(property "Reference" "#PWR0390"
+		(property "Reference" "#PWR0432"
 			(at 355.6 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -12460,7 +13072,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0390")
+					(reference "#PWR0432")
 					(unit 1)
 				)
 			)
@@ -12478,7 +13090,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97e8c6f0-1a8a-4ace-985d-ebe7f4e90fb3")
-		(property "Reference" "#PWR0376"
+		(property "Reference" "#PWR0412"
 			(at 152.4 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -12537,7 +13149,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0376")
+					(reference "#PWR0412")
 					(unit 1)
 				)
 			)
@@ -12554,7 +13166,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9860e213-f4e5-4c7f-b46b-6b5b409a8785")
-		(property "Reference" "U13"
+		(property "Reference" "U405"
 			(at 368.3 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12667,7 +13279,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "U13")
+					(reference "U405")
 					(unit 1)
 				)
 			)
@@ -12685,7 +13297,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "991bd126-9988-479d-b77a-bdd1fe2cc804")
-		(property "Reference" "#PWR0348"
+		(property "Reference" "#PWR0405"
 			(at 133.35 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -12744,7 +13356,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0348")
+					(reference "#PWR0405")
 					(unit 1)
 				)
 			)
@@ -12762,7 +13374,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99215ffa-f2b1-4f97-a39a-fb9c166e86b9")
-		(property "Reference" "#PWR0374"
+		(property "Reference" "#PWR0404"
 			(at 107.95 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -12821,7 +13433,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0374")
+					(reference "#PWR0404")
 					(unit 1)
 				)
 			)
@@ -12838,7 +13450,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9db4b2cc-063e-47b7-8ae9-eb8abdb820ae")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR0446"
 			(at 486.41 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -12897,7 +13509,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR028")
+					(reference "#PWR0446")
 					(unit 1)
 				)
 			)
@@ -12915,7 +13527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9efb9ba5-5be0-45e2-a59b-b5311d001c77")
-		(property "Reference" "JP2"
+		(property "Reference" "JP401"
 			(at 86.36 87.6299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13024,7 +13636,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "JP2")
+					(reference "JP401")
 					(unit 1)
 				)
 			)
@@ -13042,7 +13654,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9fec1e8a-7ae9-451a-a60d-49cca36efb14")
-		(property "Reference" "#PWR0388"
+		(property "Reference" "#PWR0430"
 			(at 355.6 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -13101,7 +13713,129 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0388")
+					(reference "#PWR0430")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 501.65 215.9 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "a20c72fb-2b19-4ef1-bb35-597343679da8")
+		(property "Reference" "JP413"
+			(at 501.65 220.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12V-to-COM"
+			(at 501.65 218.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 501.65 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 501.65 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 501.65 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 501.65 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 501.65 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 501.65 215.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Property" ""
+			(at 501.65 215.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d5b27810-2c3a-4a6c-a421-ebb2b63ab4ea")
+		)
+		(pin "2"
+			(uuid "20d60e42-09bd-4549-bad6-1bae504c61a8")
+		)
+		(instances
+			(project "esp32_control-board"
+				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
+					(reference "JP413")
 					(unit 1)
 				)
 			)
@@ -13119,7 +13853,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a463d5cb-e446-4afc-8ee8-e83a82a58606")
-		(property "Reference" "C312"
+		(property "Reference" "C407"
 			(at 307.848 220.218 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13226,7 +13960,129 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "C312")
+					(reference "C407")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 501.65 330.2 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "a5589d59-93b9-4213-8203-22ae59e3b6b5")
+		(property "Reference" "JP416"
+			(at 501.65 335.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12V-to-COM"
+			(at 501.65 332.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 501.65 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 501.65 325.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 501.65 322.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 501.65 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 501.65 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 501.65 330.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Property" ""
+			(at 501.65 330.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f12b22bf-1302-4b48-a98f-c838e48f0595")
+		)
+		(pin "2"
+			(uuid "3b4e6c35-608b-4f56-85c7-62bd339d9fbd")
+		)
+		(instances
+			(project "esp32_control-board"
+				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
+					(reference "JP416")
 					(unit 1)
 				)
 			)
@@ -13244,7 +14100,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8381a54-e6a2-4b44-aaf1-f7366a6a00d2")
-		(property "Reference" "#PWR0363"
+		(property "Reference" "#PWR0456"
 			(at 495.3 316.23 0)
 			(hide yes)
 			(show_name no)
@@ -13304,7 +14160,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0363")
+					(reference "#PWR0456")
 					(unit 1)
 				)
 			)
@@ -13321,7 +14177,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a978ec1c-8ec7-4402-a2bf-b1f03c1379df")
-		(property "Reference" "D11"
+		(property "Reference" "D408"
 			(at 338.836 284.734 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13450,7 +14306,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "D11")
+					(reference "D408")
 					(unit 1)
 				)
 			)
@@ -13468,7 +14324,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aecba50b-0a17-4db6-9f57-bf53edcfb4ed")
-		(property "Reference" "C313"
+		(property "Reference" "C408"
 			(at 307.848 283.718 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13575,7 +14431,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "C313")
+					(reference "C408")
 					(unit 1)
 				)
 			)
@@ -13592,7 +14448,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0fc795f-60df-492c-b8a7-a5de5d194b63")
-		(property "Reference" "R334"
+		(property "Reference" "R415"
 			(at 383.032 204.978 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13710,7 +14566,129 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "R334")
+					(reference "R415")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 501.65 254 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "b48eaf8e-1bdb-41be-b6d3-0cdc2b323e9d")
+		(property "Reference" "JP414"
+			(at 501.65 259.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12V-to-COM"
+			(at 501.65 256.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 501.65 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 501.65 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 501.65 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 501.65 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 501.65 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 501.65 254 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Property" ""
+			(at 501.65 254 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "64c52ba9-0a03-4fea-b1e7-fd4bb728c0b1")
+		)
+		(pin "2"
+			(uuid "54822204-4931-40f7-87ab-8f4faef71159")
+		)
+		(instances
+			(project "esp32_control-board"
+				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
+					(reference "JP414")
 					(unit 1)
 				)
 			)
@@ -13728,7 +14706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b49f83df-50dc-40a7-af2d-57e71c1bfc95")
-		(property "Reference" "JP7"
+		(property "Reference" "JP406"
 			(at 289.56 151.1299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13837,7 +14815,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "JP7")
+					(reference "JP406")
 					(unit 1)
 				)
 			)
@@ -13854,7 +14832,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b52253d9-ce26-41c8-aee4-07174e8f8f42")
-		(property "Reference" "R8"
+		(property "Reference" "R411"
 			(at 323.85 211.582 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13959,7 +14937,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "R8")
+					(reference "R411")
 					(unit 1)
 				)
 			)
@@ -13976,7 +14954,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5a38cc4-1e75-449b-9a9e-fea6882e6c4e")
-		(property "Reference" "J7"
+		(property "Reference" "J407"
 			(at 508 271.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14092,7 +15070,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "J7")
+					(reference "J407")
 					(unit 1)
 				)
 			)
@@ -14109,7 +15087,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8a43826-e4fb-4d8d-b550-278bc16eef48")
-		(property "Reference" "R332"
+		(property "Reference" "R413"
 			(at 383.032 77.978 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14227,7 +15205,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "R332")
+					(reference "R413")
 					(unit 1)
 				)
 			)
@@ -14244,7 +15222,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb893eb5-a226-4ed1-8556-9ede123583d6")
-		(property "Reference" "R327"
+		(property "Reference" "R405"
 			(at 179.832 77.978 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14362,7 +15340,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "R327")
+					(reference "R405")
 					(unit 1)
 				)
 			)
@@ -14381,7 +15359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bba9131e-a99e-417b-88a5-b154d90e654f")
-		(property "Reference" "#PWR0353"
+		(property "Reference" "#PWR0413"
 			(at 177.8 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -14441,7 +15419,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0353")
+					(reference "#PWR0413")
 					(unit 1)
 				)
 			)
@@ -14458,7 +15436,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bca9637a-f8e5-4372-a961-e8388b18074e")
-		(property "Reference" "U14"
+		(property "Reference" "U406"
 			(at 368.3 147.066 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14571,7 +15549,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "U14")
+					(reference "U406")
 					(unit 1)
 				)
 			)
@@ -14588,7 +15566,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd27c6cb-be44-4548-9636-d06d30e0a56f")
-		(property "Reference" "R333"
+		(property "Reference" "R414"
 			(at 383.032 141.478 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14706,7 +15684,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "R333")
+					(reference "R414")
 					(unit 1)
 				)
 			)
@@ -14725,7 +15703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf8b0e9a-8408-4f54-a679-f124f2547ec4")
-		(property "Reference" "#PWR0393"
+		(property "Reference" "#PWR0435"
 			(at 381 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -14785,7 +15763,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0393")
+					(reference "#PWR0435")
 					(unit 1)
 				)
 			)
@@ -14802,7 +15780,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4b71ead-eba4-4a5f-a425-4ad344312da7")
-		(property "Reference" "R335"
+		(property "Reference" "R416"
 			(at 383.032 268.478 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14920,7 +15898,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "R335")
+					(reference "R416")
 					(unit 1)
 				)
 			)
@@ -14938,7 +15916,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5f83d8e-c07d-42f3-aa08-4522e381fc23")
-		(property "Reference" "#PWR0378"
+		(property "Reference" "#PWR0420"
 			(at 177.8 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -15039,7 +16017,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0378")
+					(reference "#PWR0420")
 					(unit 1)
 				)
 			)
@@ -15057,7 +16035,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbce8c2a-21b4-43cd-80e3-9db1a400ab25")
-		(property "Reference" "#PWR0361"
+		(property "Reference" "#PWR0454"
 			(at 495.3 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -15117,7 +16095,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0361")
+					(reference "#PWR0454")
 					(unit 1)
 				)
 			)
@@ -15134,7 +16112,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ceb31db7-34b0-4a8d-be10-96dde890ead8")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR0445"
 			(at 486.41 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -15193,7 +16171,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR027")
+					(reference "#PWR0445")
 					(unit 1)
 				)
 			)
@@ -15210,7 +16188,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d0117fda-cb7d-48ef-8689-e9ccda2816bf")
-		(property "Reference" "J4"
+		(property "Reference" "J404"
 			(at 508 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15326,7 +16304,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "J4")
+					(reference "J404")
 					(unit 1)
 				)
 			)
@@ -15344,7 +16322,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d04a129f-193f-4c1e-95b4-06a9f0c85d2f")
-		(property "Reference" "#PWR0365"
+		(property "Reference" "#PWR0406"
 			(at 133.35 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -15403,7 +16381,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0365")
+					(reference "#PWR0406")
 					(unit 1)
 				)
 			)
@@ -15420,7 +16398,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d12ea97f-1fa6-4e15-87f8-a5c93238bcd8")
-		(property "Reference" "U11"
+		(property "Reference" "U403"
 			(at 165.1 210.566 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15533,7 +16511,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "U11")
+					(reference "U403")
 					(unit 1)
 				)
 			)
@@ -15550,7 +16528,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1c4a9f4-595e-4a90-a6c4-2c2d26dbc723")
-		(property "Reference" "D5"
+		(property "Reference" "D402"
 			(at 135.636 157.734 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15679,7 +16657,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "D5")
+					(reference "D402")
 					(unit 1)
 				)
 			)
@@ -15696,7 +16674,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d4173afb-7e4d-40f3-b61a-f8b4f45da7de")
-		(property "Reference" "J2"
+		(property "Reference" "J402"
 			(at 508 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15812,7 +16790,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "J2")
+					(reference "J402")
 					(unit 1)
 				)
 			)
@@ -15830,7 +16808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5e870bf-4cac-47ad-aba0-d93bef47b0c8")
-		(property "Reference" "JP9"
+		(property "Reference" "JP408"
 			(at 289.56 278.1299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15939,7 +16917,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "JP9")
+					(reference "JP408")
 					(unit 1)
 				)
 			)
@@ -15958,7 +16936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d699671a-a86a-448e-bbeb-88cda5d2bc9a")
-		(property "Reference" "#PWR0372"
+		(property "Reference" "#PWR0417"
 			(at 177.8 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -16018,7 +16996,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0372")
+					(reference "#PWR0417")
 					(unit 1)
 				)
 			)
@@ -16035,7 +17013,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dcec394a-e424-46da-9758-434765a7b4fb")
-		(property "Reference" "J1"
+		(property "Reference" "J401"
 			(at 508 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16151,7 +17129,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "J1")
+					(reference "J401")
 					(unit 1)
 				)
 			)
@@ -16169,7 +17147,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e41f557a-d460-46fc-970f-3f2b8b702e2f")
-		(property "Reference" "#PWR0392"
+		(property "Reference" "#PWR0434"
 			(at 381 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -16270,7 +17248,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0392")
+					(reference "#PWR0434")
 					(unit 1)
 				)
 			)
@@ -16288,7 +17266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4287344-f7a1-45e7-9d95-e5dc1077ccef")
-		(property "Reference" "JP8"
+		(property "Reference" "JP407"
 			(at 289.56 214.6299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16397,7 +17375,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "JP8")
+					(reference "JP407")
 					(unit 1)
 				)
 			)
@@ -16415,7 +17393,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e524eb2c-3a29-46a7-9234-f434dfc2a547")
-		(property "Reference" "JP3"
+		(property "Reference" "JP402"
 			(at 86.36 151.1299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16524,7 +17502,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "JP3")
+					(reference "JP402")
 					(unit 1)
 				)
 			)
@@ -16542,7 +17520,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e926e400-09cc-46c9-bade-e74a44fefb7b")
-		(property "Reference" "#PWR0382"
+		(property "Reference" "#PWR0424"
 			(at 311.15 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -16601,7 +17579,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0382")
+					(reference "#PWR0424")
 					(unit 1)
 				)
 			)
@@ -16618,7 +17596,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ea1c8c0c-f579-4cd0-8241-67e611d6c768")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR0441"
 			(at 486.41 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -16677,7 +17655,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR018")
+					(reference "#PWR0441")
 					(unit 1)
 				)
 			)
@@ -16695,7 +17673,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb1e315e-7029-41e6-8fed-655b1156c500")
-		(property "Reference" "#PWR0389"
+		(property "Reference" "#PWR0431"
 			(at 355.6 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -16754,7 +17732,129 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0389")
+					(reference "#PWR0431")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 501.65 63.5 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "eb5a76d3-7c4e-4ac1-849b-8ca8aa6e773d")
+		(property "Reference" "JP409"
+			(at 501.65 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12V-to-COM"
+			(at 501.65 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 501.65 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 501.65 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 501.65 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 501.65 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 501.65 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 501.65 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Property" ""
+			(at 501.65 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "42615710-9147-4815-9c9a-2839b9bb8344")
+		)
+		(pin "2"
+			(uuid "79ea4bbe-fc07-4750-a2d4-79a563007662")
+		)
+		(instances
+			(project "esp32_control-board"
+				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
+					(reference "JP409")
 					(unit 1)
 				)
 			)
@@ -16773,7 +17873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebad6b04-6fb1-465d-bf73-e2b960a86655")
-		(property "Reference" "#PWR0397"
+		(property "Reference" "#PWR0439"
 			(at 381 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -16833,7 +17933,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0397")
+					(reference "#PWR0439")
 					(unit 1)
 				)
 			)
@@ -16850,7 +17950,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f15f526b-ab4e-4085-8644-069a5d422dcd")
-		(property "Reference" "R6"
+		(property "Reference" "R409"
 			(at 323.85 84.582 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16955,7 +18055,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "R6")
+					(reference "R409")
 					(unit 1)
 				)
 			)
@@ -16973,7 +18073,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5d3bb03-a116-4cf4-8920-df5f345de035")
-		(property "Reference" "#PWR0381"
+		(property "Reference" "#PWR0423"
 			(at 311.15 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -17032,7 +18132,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0381")
+					(reference "#PWR0423")
 					(unit 1)
 				)
 			)
@@ -17049,7 +18149,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f6fb713c-4d2f-4311-8968-6838e90b9cd0")
-		(property "Reference" "J6"
+		(property "Reference" "J406"
 			(at 508 233.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17165,7 +18265,129 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "J6")
+					(reference "J406")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 501.65 101.6 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "f77cfe32-57c6-498b-9593-68be80e18170")
+		(property "Reference" "JP410"
+			(at 501.65 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12V-to-COM"
+			(at 501.65 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 501.65 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 501.65 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 501.65 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 501.65 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 501.65 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 501.65 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Property" ""
+			(at 501.65 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1e93bab1-dd39-43d6-b93e-d0234b72b9d2")
+		)
+		(pin "2"
+			(uuid "dd9b68f5-38e5-41eb-aa13-0a65318e7328")
+		)
+		(instances
+			(project "esp32_control-board"
+				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
+					(reference "JP410")
 					(unit 1)
 				)
 			)
@@ -17182,7 +18404,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f9b59ff2-801b-473a-bf3f-e936c2b77e2c")
-		(property "Reference" "D7"
+		(property "Reference" "D404"
 			(at 135.636 284.734 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17311,7 +18533,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "D7")
+					(reference "D404")
 					(unit 1)
 				)
 			)
@@ -17328,7 +18550,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f9e77ab3-0ed2-409d-8233-c6462eabd2d7")
-		(property "Reference" "R5"
+		(property "Reference" "R404"
 			(at 120.65 275.082 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17433,7 +18655,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "R5")
+					(reference "R404")
 					(unit 1)
 				)
 			)
@@ -17451,7 +18673,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa55e786-9864-45d3-80fd-5489626fa7c4")
-		(property "Reference" "#PWR0347"
+		(property "Reference" "#PWR0449"
 			(at 495.3 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -17511,7 +18733,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0347")
+					(reference "#PWR0449")
 					(unit 1)
 				)
 			)
@@ -17529,7 +18751,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fba07ae2-2792-4674-b234-b1541a68de25")
-		(property "Reference" "#PWR0386"
+		(property "Reference" "#PWR0428"
 			(at 336.55 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -17588,7 +18810,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0386")
+					(reference "#PWR0428")
 					(unit 1)
 				)
 			)
@@ -17606,7 +18828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc8c2cb1-bc14-44d5-8d87-7544f0302514")
-		(property "Reference" "#PWR0360"
+		(property "Reference" "#PWR0453"
 			(at 495.3 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -17666,7 +18888,7 @@
 		(instances
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/430a2fb6-08c0-44aa-96dc-d4180b7353a5"
-					(reference "#PWR0360")
+					(reference "#PWR0453")
 					(unit 1)
 				)
 			)
