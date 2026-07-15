@@ -9466,159 +9466,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 368.3 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2b42945f-c1e3-436b-8efd-7ffa88a90943")
-		(property "Reference" "#PWR0239"
-			(at 368.3 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 368.3 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 368.3 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 368.3 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 368.3 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "18e12473-1b78-4dc0-9dac-51946f51b831")
-		)
-		(instances
-			(project "esp32_control-board"
-				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/b211aa99-c245-41c6-9b64-a229e59ffb83"
-					(reference "#PWR0239")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 69.85 551.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2cc26a9d-64ab-47e7-a358-027dd33ff0cf")
-		(property "Reference" "#PWR0210"
-			(at 69.85 557.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 69.85 556.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 551.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 551.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 69.85 551.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "08eb4633-1b64-4aec-9331-75c48cf567b0")
-		)
-		(instances
-			(project "esp32_control-board"
-				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/b211aa99-c245-41c6-9b64-a229e59ffb83"
-					(reference "#PWR0210")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5VP")
 		(at 99.06 505.46 0)
 		(unit 1)
@@ -11483,6 +11330,125 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 182.88 48.26 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6440ed89-afa1-443f-afe7-6e9e64ea961c")
+		(property "Reference" "#PWR0462"
+			(at 182.88 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND_MCU"
+			(at 182.88 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 182.88 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 182.88 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 182.88 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Property" ""
+			(at 182.88 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "886a1d53-8ff6-4654-855b-182b41b4c597")
+		)
+		(instances
+			(project "esp32_control-board"
+				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/b211aa99-c245-41c6-9b64-a229e59ffb83"
+					(reference "#PWR0462")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 50.8 137.16 180)
 		(unit 1)
@@ -12564,8 +12530,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 48.26 0)
-		(mirror y)
+		(at 69.85 551.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12573,9 +12538,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8beef889-1d18-4f94-9a93-1e58c30ca146")
+		(fields_autoplaced yes)
+		(uuid "8f2ac083-65c6-4d43-902b-664aeb158007")
 		(property "Reference" "#PWR0226"
-			(at 182.88 54.61 0)
+			(at 69.85 557.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12586,7 +12552,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 53.34 0)
+			(at 69.85 556.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12596,7 +12562,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 48.26 0)
+			(at 69.85 551.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12607,7 +12573,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 48.26 0)
+			(at 69.85 551.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12618,7 +12584,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 48.26 0)
+			(at 69.85 551.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12628,7 +12594,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f7730f26-fac2-446c-a80b-2669afb4e147")
+			(uuid "6465b40f-c254-4a26-be0e-f3b487753c86")
 		)
 		(instances
 			(project "esp32_control-board"
@@ -12977,6 +12943,125 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 368.3 76.2 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "982abb64-050c-4664-948f-66d6af63ad95")
+		(property "Reference" "#PWR0464"
+			(at 368.3 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND_MCU"
+			(at 368.3 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 368.3 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 368.3 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 368.3 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 368.3 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 368.3 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Property" ""
+			(at 368.3 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1381c80d-237b-4c1f-ba3f-4de551547da6")
+		)
+		(instances
+			(project "esp32_control-board"
+				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/b211aa99-c245-41c6-9b64-a229e59ffb83"
+					(reference "#PWR0464")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_5")
 		(lib_id "power:GND")
 		(at 151.13 436.88 0)
@@ -13228,6 +13313,125 @@
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/b211aa99-c245-41c6-9b64-a229e59ffb83"
 					(reference "U201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.85 48.26 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9d6d0416-e998-40cd-9aee-ee610c7b275c")
+		(property "Reference" "#PWR0463"
+			(at 196.85 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND_MCU"
+			(at 196.85 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 196.85 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 196.85 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 196.85 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Property" ""
+			(at 196.85 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "759d0523-de6c-4116-bc54-195cedd4d23a")
+		)
+		(instances
+			(project "esp32_control-board"
+				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/b211aa99-c245-41c6-9b64-a229e59ffb83"
+					(reference "#PWR0463")
 					(unit 1)
 				)
 			)
@@ -15885,83 +16089,6 @@
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/b211aa99-c245-41c6-9b64-a229e59ffb83"
 					(reference "C206")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 196.85 48.26 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f2ddc8d7-5c22-4ab4-ae71-d85433573cec")
-		(property "Reference" "#PWR0229"
-			(at 196.85 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 196.85 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 196.85 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4196c16e-3303-4cf8-b80f-bc5d2ba75b71")
-		)
-		(instances
-			(project "esp32_control-board"
-				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/b211aa99-c245-41c6-9b64-a229e59ffb83"
-					(reference "#PWR0229")
 					(unit 1)
 				)
 			)
