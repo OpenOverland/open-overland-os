@@ -270,7 +270,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "1a"
+      "sch_revision": "2a"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -556,6 +556,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -738,7 +739,7 @@
         "uuid": "71812bfc-9597-4f26-a67f-4f6ff697416c"
       }
     ],
-    "used_designators": "SW201-202,JP301,JP401-416,TP101-103,R101-103,R201-213,R301-332,R401-416,L101,J101,J201-204,J301-308,J401-408,D101-105,D201,D301-316,D401-408,C101-112,C201-209,C301-303,C401-408,Q101-102,Q201-202,F101,U6,U101-102,U201-204,U301-303,U401-408,FB101,#PWR101-131,#PWR201-239,#PWR301-339,#PWR401-464",
+    "used_designators": "SW201-202,JP301,JP401-417,TP101-103,R101-103,R201-214,R301-335,R401-418,L101,J101,J201-204,J301-309,J401-410,D101-105,D201-202,D301-319,D401-409,C101-112,C201-209,C301-303,C401-409,Q101-102,Q201-202,Q401,F101,U6,U101-102,U201-204,U301-303,U401-409,FB101,#PWR101-131,#PWR201-239,#PWR301-341,#PWR401-474",
     "variants": []
   },
   "sheets": [
@@ -755,12 +756,12 @@
       "Main"
     ],
     [
-      "7e626d92-fbb4-4155-a21c-c4528becaf1d",
-      "Digital Outputs"
+      "b17ade5e-f9a9-4863-a9c9-220a9b114a88",
+      "Locks"
     ],
     [
-      "430a2fb6-08c0-44aa-96dc-d4180b7353a5",
-      "Digital Inputs"
+      "35f6b8d7-ab01-4d76-8070-a6afa55f005e",
+      "Peripherals"
     ]
   ],
   "text_variables": {},
