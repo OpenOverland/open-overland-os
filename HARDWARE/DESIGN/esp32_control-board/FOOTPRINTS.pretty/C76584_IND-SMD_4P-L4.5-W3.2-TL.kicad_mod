@@ -1,0 +1,227 @@
+(footprint "C76584_IND-SMD_4P-L4.5-W3.2-TL"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "IND-SMD_4P-L4.5-W3.2-TL footprint")
+	(tags "IND-SMD_4P-L4.5-W3.2-TL footprint C76584")
+	(property "Reference" "FL1"
+		(at 0 -3.6 0)
+		(layer "F.SilkS")
+		(uuid "477038a3-9379-4abb-9520-cba99977454e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Common Mode Choke"
+		(at 0 3.6 0)
+		(layer "F.Fab")
+		(uuid "edacb599-4f01-48fe-80c3-d4554108652e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "76037e60-1950-4c28-9079-e4c5814ae94d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic common-mode choke, ferrite core, 1423 pin order"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d187118-a81e-4767-81c4-3073016fdcda")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC part" "C76584"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83870fa6-2934-463f-b072-7bf9d62f43d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "TDK"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f67828a-16de-4ecf-9368-c9c12f60b20b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "26ba44de-0233-4aca-a1e0-46673a2892e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Property" "51uH@100kHz"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "570c74fa-6e25-43a2-a931-3cf3ec83da35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.2 -0.6)
+		(end -2.2 0.6)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5ee955b7-214c-47fd-87d6-ca789946c88b")
+	)
+	(fp_line
+		(start -1.4 -1.6)
+		(end 1.5 -1.6)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1c63fe0c-3b98-4329-af2b-9bf9cc5e8605")
+	)
+	(fp_line
+		(start -1.4 1.6)
+		(end 1.4 1.6)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1611291f-142e-4782-af54-ce5ec8a5f7d6")
+	)
+	(fp_line
+		(start 2.2 -0.6)
+		(end 2.2 0.6)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "33775bf7-4c25-4a96-9e10-7b3402c331a2")
+	)
+	(fp_circle
+		(center -2.57 -2.1)
+		(end -2.519962 -2.1)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "bec01f18-0b43-4064-874e-8d4ed12894eb")
+	)
+	(fp_rect
+		(start -3.1 -1.8)
+		(end 3.1 1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6404eda3-17a0-4fd8-85d7-0e11da74ebcf")
+	)
+	(fp_rect
+		(start -2.250013 -1.575057)
+		(end 2.249987 1.573381)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5357ae1a-cc48-4445-ae13-7124bf5d140f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d2ed83cd-78f9-4e3b-8d57-ed8375f9b60c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.280036 -1.250064 90)
+		(size 0.9 1.400051)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "03dfe082-41b5-456a-afba-9ba20d65e432")
+	)
+	(pad "2" smd rect
+		(at -2.280036 1.250064 90)
+		(size 0.9 1.400051)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fb135d50-f213-4911-9463-852108d7b712")
+	)
+	(pad "3" smd rect
+		(at 2.280036 1.250064 90)
+		(size 0.9 1.400051)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e670829b-a52e-4913-ba5e-1f9b3daf3845")
+	)
+	(pad "4" smd rect
+		(at 2.280036 -1.250064 90)
+		(size 0.9 1.400051)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "68b886f6-ae92-433c-86be-85e863952a97")
+	)
+	(embedded_fonts no)
+	(model "packages3d/IND-SMD_4P-L4.5-W3.2-TL.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

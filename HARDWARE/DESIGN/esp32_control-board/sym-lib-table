@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "(LOGIC)") (type "KiCad") (uri "${KIPRJMOD}/SYMBOLS/LOGIC.kicad_symdir") (options "") (descr ""))
+)
