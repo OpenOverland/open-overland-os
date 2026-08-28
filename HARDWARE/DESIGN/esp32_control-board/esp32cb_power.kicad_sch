@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "ESP32-based Control Board")
-		(date "2026-08-25")
+		(date "2026-08-28")
 		(rev "2a")
 	)
 	(lib_symbols
@@ -3676,6 +3676,17 @@
 			)
 		)
 		(uuid "b2c95944-104f-45f0-8755-f24cf8e518b1")
+	)
+	(text "Horizontal alternative:\nC206906"
+		(exclude_from_sim no)
+		(at 85.344 57.404 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f991d2c2-8c11-4a07-9f12-bf0840d0345c")
 	)
 	(junction
 		(at 307.34 69.85)

@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "ESP32-based Control Board")
-		(date "2026-08-25")
+		(date "2026-08-28")
 		(rev "2a")
 	)
 	(lib_symbols
@@ -3272,7 +3272,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "B3B-PH-K-K(LF)(SN)"
+		(property "Value" "CAN"
 			(at 300.99 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3283,7 +3283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal"
 			(at 303.53 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -3316,7 +3316,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5305733"
+		(property "LCSC" ""
 			(at 303.53 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -4171,7 +4171,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FOOTPRINTS:C76584_IND-SMD_4P-L4.5-W3.2-TL"
+		(property "Footprint" "(FOOTPRINTS):C76584_IND-SMD_4P-L4.5-W3.2-TL"
 			(at 114.3 76.2 0)
 			(hide yes)
 			(show_name no)
