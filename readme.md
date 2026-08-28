@@ -4,6 +4,17 @@ Custom designed control board build around ESP32-S3 module.
 
 ![preview](esp32_c-board.png)
 
+### Main challenges:
+
+1. There are no header for external Lamp (LED-stripe) connection, as its type is not determined:
+- option 1: populate additional one IC with the 4x hardware timers, controllable over I2C or SPI.
+- option 2: no additional IC required, but the board will require 12V addressable LED-stripes only. Hovewer they are quite popular as well.
+
+2. Blade-type fuse holder is vertical-type. It is quite high and there are no fast acces to it. It is possible to replace it with the horizontal-type one and place it at the board's edge.
+
+3. Board dimensions: currently it is 120x85 mm, but it requires at least LED-header placement. Some (not so important, optional) headers are hidden one after one to keep board compact. I2C and UART headers and RFID-module header are in the middle of the board (not at the board edge).
+
+
 ### Main features:
 
 - Overcurrent, overvoltage, reverse polarity protection;
