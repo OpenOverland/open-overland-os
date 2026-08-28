@@ -8,25 +8,26 @@ Custom designed control board build around ESP32-S3 module.
 
 - Overcurrent, overvoltage, reverse polarity protection;
 - ESP32-S3 as MCU with the in-built Wi-Fi and Bluetooth capabilities;
-- 8 digital amplified (up to 500mA per channel) outputs to control 8x LOCKs (each output equipped with the LED);
-- 8 digital amplified (up to 500mA per channel) outputs to control 8x LAMPs (each output equipped with the LED);
-- 8 digital protected (optical insulation) digital inputs to get 8x LOCK-STATEs;
+- Controls 2x LOCKs (Southco R4-EM-9P15-150);
+- 4 digital inputs, protected (optical insulation);
+- 2 analog inputs, protected (ESD);
 - 12V input power indication;
+- On-board RFID-module connector;
+- Additional CAN-interface with the 120-Ohms termination jumper;
+- Internal headers for I2C and UART interfaces;
+- Battery voltage measurement circuit
 - Transformed 3.3V power indication;
 - Automotive-grade power supply (peak voltages resistant);
 
 
 ### Specification:
 
-1. Board dimensions: 105 x 130 mm, 4x M3-mounting holes (3.2mm inner diameter);
+1. Board dimensions: 120 x 85 mm, 4x M3-mounting holes (3.2mm inner diameter);
 2. XT30 header as main Power-input (up to 15 Amps);
 3. Blade-fuse holder on the board (in light-green color);
-4. 6-pin Molex MicroFit 3.0 headers for a connection with the Locks;
-5. 2-pin Molex MicroFit 3.0 headers for a connection with the Lamps;
-6. 0.5 Amps (at 12V) max. power delivery for each Lamp;
-7. Locks and Lamps are controllable via expander-ICs over I2C-bus;
-8. Normal-Closed pin of the lock switch taken by default as the input state;
-9. Communication with the RFID-module is over SPI (RC522 module considered by default).
+4. 2x 6-pin Molex MicroFit 3.0 headers for a connection with the Locks;
+5. JST-type connectors for digital and analog inputs, for CAN, UART and I2C interfaces;
+6. Communication with the RFID-module is over SPI (RC522 module considered by default).
 
 -------------
 
@@ -75,3 +76,5 @@ Slightly more complex to integrate.
 
 ### Version history
 
+**v2a**
+This version is designed for each door (2x locks only)
