@@ -1,0 +1,228 @@
+(footprint "C206906_LittleFuse_01530007Z"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "01530007Z footprint")
+	(tags "01530007Z footprint C206906")
+	(property "Reference" "F102"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "a7757ab5-10e1-4494-bc07-d841d3691507")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "XF-087"
+		(at 0 14.700025 0)
+		(layer "F.Fab")
+		(uuid "969f7686-5939-4cc6-9303-88fdf21a3677")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd04de15-fb4e-4363-875f-f73eba2d0c2d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Fuse"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c957cc5a-1d75-48c0-ac31-645fd4985ce5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC" "C206906"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4bb59759-4a83-405b-9c19-2ddbca50971a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Littelfuse"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55a13005-60ef-47c9-910d-a4e19add92c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a293bf1a-bdd6-4d6d-88ef-5284b0696acd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Property" "15A max."
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85a71184-e6f2-4300-8619-3fc080e26107")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "*Fuse*")
+	(sheetname "/Power/")
+	(sheetfile "esp32cb_power.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -8.763018 0)
+		(end -8.763018 12.700025)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b938e27a-68b4-4b49-be90-4f4d15d9ceb4")
+	)
+	(fp_line
+		(start -8.763018 12.700025)
+		(end 8.763018 12.700025)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b7f7511f-a66d-46d2-8637-70330919e184")
+	)
+	(fp_line
+		(start -8.636017 0)
+		(end 8.636017 0)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "97b428ab-9053-4d08-ab10-2dac8ee0fcae")
+	)
+	(fp_line
+		(start 8.763018 12.700025)
+		(end 8.763018 0)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f730f891-3a34-45f4-b201-404b974ad29a")
+	)
+	(fp_circle
+		(center -8.890018 12.827026)
+		(end -8.86002 12.827026)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6acc2739-bcac-4a5c-8960-eda184414bfb")
+	)
+	(fp_rect
+		(start -9 -1.15)
+		(end 9 12.94)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "883b6814-e305-4fc9-8b2e-6dfcbaa0b9cc")
+	)
+	(fp_rect
+		(start -8.68 0.07)
+		(end 8.69 12.59)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "cfe28e09-a7bf-4c7e-a278-6d4b278ac091")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 6.350013 0)
+		(layer "F.Fab")
+		(uuid "40b86d33-7aeb-481e-8b94-d624477df4c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 7.620015)
+		(size 2.286005 2.286005)
+		(drill 2.286005)
+		(layers "*.Cu" "*.Mask")
+		(uuid "3fbc0c4f-982b-4b85-9467-92a252035dc5")
+	)
+	(pad "1" thru_hole circle
+		(at -3.810008 0)
+		(size 2.032004 2.032004)
+		(drill 1.270003)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "05ddc567-3de7-4135-a9a0-62877f7f61bf")
+	)
+	(pad "2" thru_hole circle
+		(at 3.810008 0)
+		(size 2.032004 2.032004)
+		(drill 1.270003)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "660f3cb1-84a0-4ca0-8491-21b27473a0d4")
+	)
+	(embedded_fonts no)
+	(model "packages3d/01530007Z.step"
+		(offset
+			(xyz 0 -6.500012302 -3.499992947)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

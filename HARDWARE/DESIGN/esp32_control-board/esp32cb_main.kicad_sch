@@ -4321,6 +4321,30 @@
 			)
 		)
 	)
+	(global_label "esp_LED-DO"
+		(shape input)
+		(at 214.63 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1bc68701-00ce-4468-be15-58b31263dd9f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.7915 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "SPI_miso"
 		(shape input)
 		(at 116.84 125.73 180)
