@@ -3251,8 +3251,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 303.53 191.77 0)
-		(mirror y)
+		(at 303.53 191.77 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3262,7 +3261,7 @@
 		(dnp no)
 		(uuid "93e69521-f604-4452-9e62-bba1d7576568")
 		(property "Reference" "J401"
-			(at 300.99 187.96 0)
+			(at 300.99 195.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3273,7 +3272,7 @@
 			)
 		)
 		(property "Value" "CAN"
-			(at 300.99 190.5 0)
+			(at 300.99 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3339,7 +3338,7 @@
 			)
 		)
 		(property "Package" "PH-2.0"
-			(at 300.99 195.326 0)
+			(at 300.99 188.214 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3350,7 +3349,7 @@
 			)
 		)
 		(property "Property" "Black"
-			(at 300.99 193.0401 0)
+			(at 300.99 190.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

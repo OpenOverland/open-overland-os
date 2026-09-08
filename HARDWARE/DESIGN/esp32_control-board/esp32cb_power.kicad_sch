@@ -8659,7 +8659,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "12V ok"
+		(property "Value" "Power"
 			(at 250.19 77.216 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8744,6 +8744,17 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "LCSC" ""
+			(at 246.38 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9398,23 +9409,25 @@
 		(dnp no)
 		(uuid "b42f7a08-de1e-4add-9bae-1e10e3ec8559")
 		(property "Reference" "D104"
-			(at 249.428 200.914 90)
+			(at 248.158 200.914 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "+3.3V ok"
-			(at 252.73 205.486 90)
+		(property "Value" "3.3V ok"
+			(at 248.158 205.486 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
@@ -9472,17 +9485,30 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 250.698 203.2 90)
+			(at 248.158 203.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Property" "Green"
-			(at 250.952 207.518 90)
+			(at 248.158 207.772 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "LCSC" ""
+			(at 245.11 204.47 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

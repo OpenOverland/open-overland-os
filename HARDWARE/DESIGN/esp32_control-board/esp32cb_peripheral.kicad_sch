@@ -8038,7 +8038,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RFID-module1"
+		(property "Value" "RFID-module"
 			(at 377.19 254.254 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8049,7 +8049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B8B-PH-K_1x08_P2.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S8B-PH-K_1x08_P2.00mm_Horizontal"
 			(at 374.65 254 0)
 			(hide yes)
 			(show_name no)
