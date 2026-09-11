@@ -11274,10 +11274,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "fbdf0489-37b0-4878-8771-74c16e58087a")
 		(property "Reference" "C109"
 			(at 228.346 193.294 0)
@@ -11367,6 +11367,17 @@
 		)
 		(property "Property" "16V"
 			(at 230.378 197.866 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 224.79 196.85 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

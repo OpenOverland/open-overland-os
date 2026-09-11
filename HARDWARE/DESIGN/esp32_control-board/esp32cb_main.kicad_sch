@@ -3519,7 +3519,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 11.43) (xy 248.92 5.08)
+			(xy 283.21 68.58) (xy 283.21 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3539,7 +3539,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 -26.67) (xy 248.92 -26.67)
+			(xy 270.51 30.48) (xy 283.21 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3839,6 +3839,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 92.71) (xy 204.47 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7af9bfd0-ecf1-4478-99f2-4039cb5ce3ca")
+	)
+	(wire
+		(pts
 			(xy 365.76 50.8) (xy 349.25 50.8)
 		)
 		(stroke
@@ -3899,7 +3909,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 11.43) (xy 210.82 5.08)
+			(xy 245.11 68.58) (xy 245.11 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3909,13 +3919,23 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 -26.67) (xy 210.82 -26.67)
+			(xy 237.49 30.48) (xy 245.11 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a5b6e0c9-0d04-4b4d-9010-9b1a3823922f")
+	)
+	(wire
+		(pts
+			(xy 176.53 92.71) (xy 196.85 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5e8ace4-dfc8-4646-a6ff-307592f65c3b")
 	)
 	(wire
 		(pts
@@ -3999,7 +4019,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 -26.67) (xy 210.82 -17.78)
+			(xy 245.11 30.48) (xy 245.11 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4079,7 +4099,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 -10.16) (xy 248.92 -2.54)
+			(xy 283.21 46.99) (xy 283.21 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4229,7 +4249,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 -10.16) (xy 210.82 -2.54)
+			(xy 245.11 46.99) (xy 245.11 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4279,7 +4299,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 -26.67) (xy 248.92 -17.78)
+			(xy 283.21 30.48) (xy 283.21 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4299,17 +4319,17 @@
 	)
 	(global_label "ctrl_LOCK2_3V3"
 		(shape input)
-		(at 231.14 142.24 180)
+		(at 176.53 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "042d652a-948f-4a10-8b90-544fe0d806c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.3382 142.24 0)
+			(at 194.3318 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4317,13 +4337,61 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+			)
+		)
+	)
+	(global_label "sens_LOCK1_door_3V3"
+		(shape input)
+		(at 176.53 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "095bdbf5-8fac-4f7a-8d4b-3b4eca343cd9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.5607 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
 	(global_label "esp_LED-DO"
 		(shape input)
-		(at 125.73 147.32 180)
+		(at 209.55 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1bc68701-00ce-4468-be15-58b31263dd9f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.3885 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "RFID1_irq"
+		(shape input)
+		(at 146.05 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4331,9 +4399,9 @@
 			)
 			(justify right)
 		)
-		(uuid "1bc68701-00ce-4468-be15-58b31263dd9f")
+		(uuid "29b6e251-902f-42cc-b268-f1aa8f66078c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.8915 147.32 0)
+			(at 134.1143 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4417,33 +4485,9 @@
 			)
 		)
 	)
-	(global_label "esp_TCAN330_ctrl-Silent"
+	(global_label "esp_LED_blue"
 		(shape input)
-		(at 127 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4228857b-a9da-456c-b624-4940380af11d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.2478 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "esp_LED_green"
-		(shape input)
-		(at 203.2 -26.67 180)
+		(at 237.49 30.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4453,7 +4497,7 @@
 		)
 		(uuid "4296dc72-1dad-4762-a334-e14876f16aeb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.3054 -26.67 0)
+			(at 221.805 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4489,9 +4533,33 @@
 			)
 		)
 	)
+	(global_label "esp_TCAN330_ctrl-Silent"
+		(shape input)
+		(at 176.53 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "452cea14-4e9c-463a-890c-9184f4463084")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.2822 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "sens_LOCK2_latch_3V3"
 		(shape input)
-		(at 240.03 128.27 0)
+		(at 176.53 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4501,7 +4569,7 @@
 		)
 		(uuid "488986a6-241f-4ac5-bac0-291983120c64")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.605 128.27 0)
+			(at 201.105 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4561,33 +4629,9 @@
 			)
 		)
 	)
-	(global_label "esp_TCAN330_ctrl-Shutdown"
-		(shape input)
-		(at 127 104.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "533c4713-9913-4118-b25f-567bf7c4c455")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.6799 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "esp_LED_red"
 		(shape input)
-		(at 236.22 -26.67 180)
+		(at 270.51 30.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4597,7 +4641,7 @@
 		)
 		(uuid "5890efca-31e8-494e-935d-f9fcf116c545")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.563 -26.67 0)
+			(at 255.853 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4635,17 +4679,17 @@
 	)
 	(global_label "esp_LED_red"
 		(shape input)
-		(at 208.28 74.93 180)
+		(at 176.53 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "5c9b365a-f3e8-4b7e-9cd9-9cb1ce41e804")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.623 74.93 0)
+			(at 191.187 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4653,7 +4697,31 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+			)
+		)
+	)
+	(global_label "esp_TCAN330_ctrl-Shutdown"
+		(shape input)
+		(at 176.53 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ebea7f0-2905-43ea-a10a-e9b493264c8e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.8501 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -4777,30 +4845,6 @@
 			)
 		)
 	)
-	(global_label "RFID1_irq"
-		(shape input)
-		(at 146.05 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7663e99f-26ce-492c-a9b1-3eab587c9eae")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.1143 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "TWAI_RX"
 		(shape input)
 		(at 146.05 105.41 180)
@@ -4849,30 +4893,6 @@
 			)
 		)
 	)
-	(global_label "sens_LOCK1_door_3V3"
-		(shape input)
-		(at 241.3 146.05 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "85784e6c-adb9-43e7-86d6-c1da3561c0ef")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.3307 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "TWAI_TX"
 		(shape input)
 		(at 146.05 102.87 180)
@@ -4910,30 +4930,6 @@
 		(uuid "95e4ada0-b579-492c-9187-fd9778c24bc0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 57.491 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "LAMPS_RESET"
-		(shape input)
-		(at 113.03 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a00cec6d-3399-4760-94b2-72b2a2fd1751")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.2845 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4993,6 +4989,30 @@
 			)
 		)
 	)
+	(global_label "esp_LED_blue"
+		(shape input)
+		(at 176.53 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5ea904e-3468-4afb-bc2d-da559faf557f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.215 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "SPI_cs1"
 		(shape input)
 		(at 102.87 118.11 180)
@@ -5019,7 +5039,7 @@
 	)
 	(global_label "sens_LOCK1_latch_3V3"
 		(shape input)
-		(at 241.3 132.08 0)
+		(at 176.53 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5029,7 +5049,7 @@
 		)
 		(uuid "c4af2755-f12f-462c-9f45-c41429adde8d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.875 132.08 0)
+			(at 201.105 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5187,7 +5207,7 @@
 	)
 	(global_label "ctrl_LOCK1_3V3"
 		(shape input)
-		(at 229.87 138.43 180)
+		(at 146.05 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5197,7 +5217,7 @@
 		)
 		(uuid "e2f5dd68-495e-4953-b3c4-cd0f6700b26d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.0682 138.43 0)
+			(at 128.2482 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5211,7 +5231,7 @@
 	)
 	(global_label "sens_LOCK2_door_3V3"
 		(shape input)
-		(at 240.03 142.24 0)
+		(at 176.53 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5221,7 +5241,7 @@
 		)
 		(uuid "e45d3627-30e2-4268-9569-7bdced79e41e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.0607 142.24 0)
+			(at 200.5607 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5579,7 +5599,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 248.92 -13.97 0)
+		(at 283.21 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5589,7 +5609,7 @@
 		(dnp no)
 		(uuid "16776f17-6fbf-4c15-b8e5-f662f408dced")
 		(property "Reference" "R214"
-			(at 251.206 -17.526 0)
+			(at 285.496 39.624 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5600,7 +5620,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 251.206 -15.24 0)
+			(at 285.496 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5611,7 +5631,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 247.142 -13.97 90)
+			(at 281.432 43.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5622,7 +5642,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 -13.97 0)
+			(at 283.21 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5633,7 +5653,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 248.92 -13.97 0)
+			(at 283.21 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5643,7 +5663,7 @@
 			)
 		)
 		(property "LCSC part" "C21190"
-			(at 248.92 -13.97 0)
+			(at 283.21 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5654,7 +5674,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 248.92 -13.97 0)
+			(at 283.21 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5665,7 +5685,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 251.206 -12.954 0)
+			(at 285.496 44.196 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5676,7 +5696,7 @@
 			)
 		)
 		(property "Property" "1%"
-			(at 251.206 -10.668 0)
+			(at 285.496 46.482 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6903,7 +6923,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 210.82 -13.97 0)
+		(at 245.11 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6913,7 +6933,7 @@
 		(dnp no)
 		(uuid "5667e546-8dae-4e4a-b395-9623ab3a45a2")
 		(property "Reference" "R213"
-			(at 213.106 -17.526 0)
+			(at 247.396 39.624 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6924,7 +6944,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 213.106 -15.24 0)
+			(at 247.396 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6935,7 +6955,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 209.042 -13.97 90)
+			(at 243.332 43.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6946,7 +6966,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 -13.97 0)
+			(at 245.11 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6957,7 +6977,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.82 -13.97 0)
+			(at 245.11 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6967,7 +6987,7 @@
 			)
 		)
 		(property "LCSC part" "C21190"
-			(at 210.82 -13.97 0)
+			(at 245.11 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6978,7 +6998,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 210.82 -13.97 0)
+			(at 245.11 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6989,7 +7009,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 213.106 -12.954 0)
+			(at 247.396 44.196 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7000,7 +7020,7 @@
 			)
 		)
 		(property "Property" "1%"
-			(at 213.106 -10.668 0)
+			(at 247.396 46.482 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7152,6 +7172,141 @@
 			(project "esp32_control-board"
 				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/b211aa99-c245-41c6-9b64-a229e59ffb83"
 					(reference "R212")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 198.12 40.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5d2fe6b7-add1-405f-8e10-c6e52947b7f8")
+		(property "Reference" "D202"
+			(at 201.93 37.084 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MCU ok"
+			(at 201.93 41.656 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 198.12 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC part" "C965804"
+			(at 198.12 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 198.12 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603"
+			(at 201.93 39.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Property" "Green"
+			(at 201.93 43.942 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "LCSC" ""
+			(at 198.12 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aef9a923-ca73-4600-a02c-8f2cc665a498")
+		)
+		(pin "2"
+			(uuid "bfa5cd15-3e74-441a-a3a9-f2ff7cbc9910")
+		)
+		(instances
+			(project "esp32_control-board"
+				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/b211aa99-c245-41c6-9b64-a229e59ffb83"
+					(reference "D202")
 					(unit 1)
 				)
 			)
@@ -7750,7 +7905,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 434.34 95.25 90)
+		(at 245.11 58.42 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7760,7 +7915,7 @@
 		(dnp no)
 		(uuid "6b3735c3-366d-4bc8-8c86-dc09ffa373d8")
 		(property "Reference" "D203"
-			(at 438.15 91.694 90)
+			(at 248.92 54.864 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7771,7 +7926,7 @@
 			)
 		)
 		(property "Value" "XL-1608UBC-06A"
-			(at 438.15 96.266 90)
+			(at 248.92 59.436 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7782,7 +7937,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 434.34 95.25 0)
+			(at 245.11 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7793,7 +7948,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 434.34 95.25 0)
+			(at 245.11 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7804,7 +7959,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 434.34 95.25 0)
+			(at 245.11 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7814,7 +7969,7 @@
 			)
 		)
 		(property "Manufacturer" "XINGLIGHT"
-			(at 434.34 95.25 0)
+			(at 245.11 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7825,7 +7980,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 438.15 93.98 90)
+			(at 248.92 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7836,7 +7991,7 @@
 			)
 		)
 		(property "Property" "Blue"
-			(at 438.15 98.552 90)
+			(at 248.92 61.722 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7847,7 +8002,7 @@
 			)
 		)
 		(property "LCSC" "C7371904"
-			(at 434.34 95.25 0)
+			(at 245.11 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8220,6 +8375,128 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 200.66 92.71 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7c00a401-6f00-4c1e-bdfd-1bd072c2fada")
+		(property "Reference" "R216"
+			(at 200.66 88.392 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 200.406 90.424 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 200.66 94.488 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC part" "C21190"
+			(at 200.66 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 200.66 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603"
+			(at 200.66 94.996 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Property" "1%"
+			(at 200.66 90.424 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "716308a8-7faf-421e-8c40-fa5a139e24d5")
+		)
+		(pin "2"
+			(uuid "fdbee72c-a1c3-488b-b006-8c5dd01e70bf")
+		)
+		(instances
+			(project "esp32_control-board"
+				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/b211aa99-c245-41c6-9b64-a229e59ffb83"
+					(reference "R216")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 73.66 92.71 0)
 		(unit 1)
@@ -8463,7 +8740,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 434.34 109.22 90)
+		(at 283.21 58.42 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8473,7 +8750,7 @@
 		(dnp no)
 		(uuid "89daad41-acd8-4ed7-8381-025e3dcba981")
 		(property "Reference" "D204"
-			(at 438.15 105.664 90)
+			(at 287.02 54.864 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8484,7 +8761,7 @@
 			)
 		)
 		(property "Value" "XL-1608SURUGC"
-			(at 438.15 110.236 90)
+			(at 287.02 59.436 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8495,7 +8772,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 434.34 109.22 0)
+			(at 283.21 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8506,7 +8783,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 434.34 109.22 0)
+			(at 283.21 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8517,7 +8794,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 434.34 109.22 0)
+			(at 283.21 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8527,7 +8804,7 @@
 			)
 		)
 		(property "Manufacturer" "XINGLIGHT"
-			(at 434.34 109.22 0)
+			(at 283.21 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8538,7 +8815,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 438.15 107.95 90)
+			(at 287.02 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8549,7 +8826,7 @@
 			)
 		)
 		(property "Property" "Red"
-			(at 438.15 112.522 90)
+			(at 287.02 61.722 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8560,7 +8837,7 @@
 			)
 		)
 		(property "LCSC" "C5349934"
-			(at 434.34 109.22 0)
+			(at 283.21 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8705,7 +8982,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 210.82 11.43 0)
+		(at 245.11 68.58 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8716,7 +8993,7 @@
 		(dnp no)
 		(uuid "982abb64-050c-4664-948f-66d6af63ad95")
 		(property "Reference" "#PWR0464"
-			(at 210.82 17.78 0)
+			(at 245.11 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8727,7 +9004,7 @@
 			)
 		)
 		(property "Value" "GND_MCU"
-			(at 210.82 16.51 0)
+			(at 245.11 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8737,7 +9014,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 11.43 0)
+			(at 245.11 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8748,7 +9025,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 11.43 0)
+			(at 245.11 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8759,7 +9036,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.82 11.43 0)
+			(at 245.11 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8769,7 +9046,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 210.82 11.43 0)
+			(at 245.11 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8780,7 +9057,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 210.82 11.43 0)
+			(at 245.11 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8791,7 +9068,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 210.82 11.43 0)
+			(at 245.11 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8801,7 +9078,7 @@
 			)
 		)
 		(property "Property" ""
-			(at 210.82 11.43 0)
+			(at 245.11 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9278,141 +9555,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 210.82 1.27 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ac681547-8bb5-4a9f-975b-7854302a6da4")
-		(property "Reference" "D201"
-			(at 214.63 -2.286 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "MCU ok"
-			(at 214.63 2.286 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 210.82 1.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 1.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 210.82 1.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC part" "C965804"
-			(at 210.82 1.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "XINGLIGHT"
-			(at 210.82 1.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "0603"
-			(at 214.63 0 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Property" "Green"
-			(at 214.63 4.572 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "LCSC" ""
-			(at 210.82 1.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0313016a-9c1a-4b23-b62b-a580d99daf51")
-		)
-		(pin "2"
-			(uuid "9145156e-2410-4171-bf5b-f623f1108330")
-		)
-		(instances
-			(project "esp32_control-board"
-				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/b211aa99-c245-41c6-9b64-a229e59ffb83"
-					(reference "D201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 349.25 170.18 0)
 		(unit 1)
@@ -9860,141 +10002,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 248.92 1.27 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b95c9341-0b94-480d-a654-d2f64f5de133")
-		(property "Reference" "D202"
-			(at 252.73 -2.286 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "MCU ok"
-			(at 252.73 2.286 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 248.92 1.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 1.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 248.92 1.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC part" "C965804"
-			(at 248.92 1.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "XINGLIGHT"
-			(at 248.92 1.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "0603"
-			(at 252.73 0 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Property" "Green"
-			(at 252.73 4.572 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "LCSC" ""
-			(at 248.92 1.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "03ae00fe-aaa5-419d-a369-2c891ee3e5d3")
-		)
-		(pin "2"
-			(uuid "89267e19-b72b-46f6-a30f-f4cada76e17b")
-		)
-		(instances
-			(project "esp32_control-board"
-				(path "/71812bfc-9597-4f26-a67f-4f6ff697416c/b211aa99-c245-41c6-9b64-a229e59ffb83"
-					(reference "D202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 349.25 115.57 0)
 		(unit 1)
@@ -10436,7 +10443,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 248.92 11.43 0)
+		(at 283.21 68.58 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -10447,7 +10454,7 @@
 		(dnp no)
 		(uuid "f093f886-1d88-4aba-8acc-fb7a639a6550")
 		(property "Reference" "#PWR0465"
-			(at 248.92 17.78 0)
+			(at 283.21 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10458,7 +10465,7 @@
 			)
 		)
 		(property "Value" "GND_MCU"
-			(at 248.92 16.51 0)
+			(at 283.21 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10468,7 +10475,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 11.43 0)
+			(at 283.21 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10479,7 +10486,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 11.43 0)
+			(at 283.21 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10490,7 +10497,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 248.92 11.43 0)
+			(at 283.21 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10500,7 +10507,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 248.92 11.43 0)
+			(at 283.21 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10511,7 +10518,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 248.92 11.43 0)
+			(at 283.21 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10522,7 +10529,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 248.92 11.43 0)
+			(at 283.21 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10532,7 +10539,7 @@
 			)
 		)
 		(property "Property" ""
-			(at 248.92 11.43 0)
+			(at 283.21 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
