@@ -16,7 +16,7 @@ Custom designed control board build around ESP32-S3 module.
 8. A few Vertically-oriented internal JST-type connectors for UART and I2C interfaces;
 9. Communication with the RFID-module is over SPI (RC522 module considered by default).
 
-![preview](esp32_c-board_top.png)
+![preview](esp32_c-board_perspective.png)
 
 ### Main features:
 
